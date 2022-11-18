@@ -1,0 +1,29 @@
+{
+  "name": "vitamins-wiki",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview",
+    "tailWatch": "npx tailwind -i ./src/css/input.css -o ./src/css/index.css --watch"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "tailwindcss": "^3.2.4",
+    "vite": "^3.0.9",
+    "vite-plugin-solid": "^2.3.0"
+  },
+  "dependencies": {
+    "@mbarzda/solid-i18next": "^1.1.8",
+    "@solidjs/router": "^0.5.0",
+    "daisyui": "^2.41.0",
+    "i18next": "^22.0.6",
+    "i18next-browser-languagedetector": "^7.0.1",
+    "i18next-http-backend": "^2.0.1",
+    "i18next-xhr-backend": "^3.2.2",
+    "solid-js": "^1.5.1",
+    "solid-toast": "^0.3.5"
+  }
+}
