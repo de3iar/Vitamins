@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import '/src/css/content.css';
 
 body {
   margin: 0;
@@ -15,4 +16,16 @@ code {
 #sidebarl {
 
   height: calc(100vh - 80px);
+}
+
+
+@layer utilities {
+  .prose {
+    max-width: 100% !important;
+  }
+
+}
+
+img {
+  user-select: none;
 }

@@ -7,5 +7,13 @@ export const routesList = [
     {
         path: "/",
         component: lazy(() => import("/src/pages/hero"))
+    },
+    {
+        path: "/intro",
+        component: lazy(() => import("/src/pages/start/intro"))
+    },
+    {
+        path: "/getstarted",
+        component: lazy(() => import("/src/pages/start/getstarted"))
     }
 ];
