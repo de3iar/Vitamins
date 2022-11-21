@@ -5,6 +5,7 @@
         "intro": "Introduction"
     },
     "menu_as_actor": {
-        "title": "As Vtuber/Actor"
+        "title": "As Vtuber/Actor",
+        "prefix": "Prefix"
     }
 }

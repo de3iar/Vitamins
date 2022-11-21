@@ -3,8 +3,8 @@
     "intro": {
         "title": "Quick Intro",
         "why": "Why Vitamins",
-        "p1_middleware": " Vitamins is a middleware between face capture devices and rendering softwares. Vitamins calculates and packages the face capture data in a user defined way into Parameters and send to rendering softwares.",
-        "p2_rendering": "While rendering software typically wraps raw data into Live2D standard input parameters for the user to use, Vitamins uses more raw data from face capture devices. This allows Vitamins to calibrate and calculate in an accurate and normalised way.",
+        "p1_middleware": " Vitamins is a middleware between face tracking devices and rendering softwares. Vitamins calculates and packages the face tracking data in a user defined way into Parameters and send to rendering softwares.",
+        "p2_rendering": "While rendering software typically wraps raw data into Live2D standard input parameters for the user to use, Vitamins uses more raw data from face tracking devices. This allows Vitamins to calibrate and calculate in an accurate and normalised way.",
         "p4_stand": "The standardized calibration allows different faces to perform the same range of values, but also keeps individual characteristics due to differences in muscles, expression habits, etc.",
         "p5_benefit": "The benefits is:",
         "p6_For_Actor": "For Actor(Vtuber), Live2D models, items, and Vitamins saves created under this standardized range of facial expressions can be used right out of the box. ",
@@ -17,18 +17,36 @@
         "title": "Requirements",
         "hardware": {
             "title": "Hardware",
-            "p1_follow_types": "Vitamins currently supports the following types of capture inputs.",
-            "bq1_onios": "Face capture on IOS devices relies on the TrueDepth camera to work. This hardware is installed on all Iphone devices from the Iphone X onwards, as well as on the third gen ipad pro and later Ipad devices.",
+            "p1_follow_types": "Vitamins currently supports the following types of tracking inputs.",
+            "bq1_onios": "Face tracking on IOS devices relies on the TrueDepth camera to work. This hardware is installed on all Iphone devices from the Iphone X onwards, as well as on the third gen ipad pro and later Ipad devices.",
+            "p2_ios_tech": "The technology of the TrueDepth camera has been upgraded several times, so you may find that the tracking performance is better on higher generation devices.",
             "bq2_rtx": " Requires RTX 2060 and later RTX graphics cards, available on Nvidia graphics cards only. Requires the"
         },
         "software": {
             "title": "Software",
-            "p1_render": "Vitamins itself does not have the ability to render output - the rendering and display of models is dependent on additional software, currently only available with"
+            "p1_render": "Vitamins itself does not have the ability to render output - the rendering and display of models is dependent on additional software, currently only available with",
+            "p2_firewall": "Vitamins relies on the local network to communicate with tracking devices and rendering software, if you are prompted by a firewall during use, please click 'allow'."
         }
     },
     "instal": {
         "title": "Installation",
         "p1_down": "You can now download Vtiamins from the release page on github.",
         "p2_run": "Extract the zip archive to any location and run Vitamins.exe to start the program."
+    },
+    "example": {
+        "title": "Example",
+        "t1_withVTS": "Use with VTS",
+        "t2_connectios": "Connect to IOS VTS",
+        "li_samelan": "Connect the pc and ios device to the same LAN. (If you are using a school or company network, you will probably have problems with the connection, in which case it is recommended to use a phone hotspot, router etc. to ensure that softwares is under the same LAN).",
+        "li_startios": "Start Vtube Studio on IOS , and at the bottom of the settings page, turn on 3rd Party PC Clients . Click on 'Show IP' and remember the IP address.",
+        "li_firstIndi": "Click on the first indicator in the top left corner of Vitamins and fill in the ip address of your Ios device. Then click Connect. Note that if there are multiple software or devices connected to IOS VTS at the same time, the connection may be slow and laggy.",
+        "li_connected": "If the connection is successful, you will see the light turn green",
+        "t_connectpcVTS": "Connect to PC VTS",
+        "li_start": "Start VTS , and turn on the plugin.",
+        "li_secIndi": "Click on the second indicator in the top left corner of Vitamins and fill in the VTS plugin port number, or simply click on Connect and Vitamins will automatically find and connect to all VTS instances that have the plugin port open.",
+        "li_clickallow": "Click Allow on VTS",
+        "li_connsecc": "If the connection is successful, you will see the light turn green. And all connected VTS port numbers appear in the connection panel, you can right click on it to manage it.",
+        "p_prefix": "At this point the connection has been made, but you may find that your model is not behaving quite so well. This is because you have not yet calibrated your face, which in Vitamins I call it",
+        "a_prefix": "Prefix"
     }
 }

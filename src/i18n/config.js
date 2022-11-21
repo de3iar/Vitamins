@@ -8,7 +8,7 @@ const i18n = i18next
         fallbackLng: 'en',
         // whitelist: ['en', 'el'],
         preload: ['en', 'zh-CN'],
-        ns: ["hero", "index", "start_getting_started", "sidebarL", "translations", "start_Intro"],
+        ns: ["asvtb_prefix", "hero", "start_getting_started", "index", "sidebarL", "translations"],
         defaultNS: 'translations',
         fallbackNS: false,
         debug: true,

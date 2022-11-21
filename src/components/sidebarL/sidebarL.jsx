@@ -23,7 +23,7 @@ function SidebarL() {
                     <span>{i18n.t('sidebarL:menu_as_actor.title')}</span>
                 </li>
                 <li></li>
-                <li><a>Item 1</a></li>
+                <SidebarLi href="/prefix" text="sidebarL:menu_as_actor.prefix" />
                 <li><a>Item 2</a></li>
             </ul>
         </div>

@@ -16,4 +16,9 @@ export const routesList = [
         path: "/getstarted",
         component: lazy(() => import("/src/pages/start/getstarted"))
     }
+    ,
+    {
+        path: "/prefix",
+        component: lazy(() => import("/src/pages/asvtb/prefix"))
+    }
 ];
