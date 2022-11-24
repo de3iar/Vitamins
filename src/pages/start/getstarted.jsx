@@ -66,7 +66,7 @@ export default function GetStarted() {
             </li>
 
         </ul>
-        <Headings h="4" text={i18n.t("start_getting_started:example.t2_connectios")}></Headings>
+        <Headings h="4" text={i18n.t("start_getting_started:example.t_connectpcVTS")}></Headings>
 
         <ul>
             <li>
