@@ -14,12 +14,16 @@ export default function GetStarted() {
         <p>{i18n.t(lp + 'p_dbcl')}</p>
         <Headings h="2" id="codecomplete" class="" text={i18n.t(lp + 't_codecom')}></Headings>
         <p>{i18n.t(lp + 'p_autocom')}</p>
-
+        <img src={imgPath + "info_autocom.png"} alt="" />
         <Headings h="2" id="symbol" class="" text={i18n.t(lp + 't_symbol')}></Headings>
         <p>{i18n.t(lp + 'p_jssyms')}</p>
+        <img src={imgPath + "info_calc_exam1.png"} alt="" />
+        <img src={imgPath + "info_calc_exam2.png"} alt="" />
         <blockquote>{i18n.t(lp + 'bq_pow')}</blockquote>
+        <img src={imgPath + "info_calc_exam3.png"} alt="" />
         <Headings h="2" id="mathlib" class="" text={i18n.t(lp + 't_math')}></Headings>
         <p>{i18n.t(lp + 'p_mathlib')}</p>
+        <img src={imgPath + "info_math.png"} alt="" />
         <p>{i18n.t(lp + 'p_checkMath')}</p>
         <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math">Math</a>
 

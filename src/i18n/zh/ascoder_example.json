@@ -15,7 +15,7 @@
     "li_vtsparam": "使用VTS parameter",
     "p_fetch": "开启Fetch VTS parameter data 后，你可以通过vPlugin.vts.defaultParam.VoiceVolume 获取VoiceVolume。",
     "p_just": "然后与MouthOpen一起计算即可。",
-    "bq_twomode": "Add方法的延时会低于获取VTS parameter。且开启Fetch VTS parameter data 选项会给VTS插件服务器施加较大压力。如果你同时使用其他VTS插件，可能诱发这些插件触发VTS插件服务抖动。",
+    "bq_twomode": "Add方法的延时会低于使用VTS parameter。且开启Fetch VTS parameter data 选项会给VTS插件服务器施加较大压力。如果你同时使用其他VTS插件，可能诱发这些插件触发VTS插件服务抖动。",
     "t_sods": "二阶系统",
     "p_cratesods": "你可以使用 new vPlugin.SecondOrderSystem(f,z,r)创建一个二阶系统。",
     "li_freq": "其中f 是频率，决定了系统的频率，数值越高，系统变化的越快。",

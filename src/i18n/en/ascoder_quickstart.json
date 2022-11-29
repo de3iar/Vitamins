@@ -3,7 +3,7 @@
     "t_exp": "Expression mode",
     "p_inexp": "Editing Param in expression mode is like expressing the relationship between the independent and dependent variables in an equation in middle school; you need to describe the relationship between param and blendshapes in mathematical terms.",
     "t_warmip": "Warm-up",
-    "p_simcase": "In the simplest use case, you want to create a param to represent the expression mouthPucker, which is only related to the blendshape of the same name. The value of the param can simply be equal to the value of the blendshape mouthPucker.So we fill 'mouthPucker' to the editor.",
+    "p_simcase": "In the simplest use case, you want to create a param to represent the expression mouthFunnel, which is only related to the blendshape of the same name. The value of the param can simply be equal to the value of the blendshape mouthFunnel.So we fill 'mouthFunnel' to the editor.",
     "t_deeper": "Going deeper",
     "p_usecase": "For a practical use case, you want to create a Param representing the BrowLY, one of the standard Live2D Parameters.",
     "p_browrange": "The range of BrowLY is [-1, 1], and the default value is 0, where the positive direction means up.",

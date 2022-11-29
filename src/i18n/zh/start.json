@@ -1,5 +1,4 @@
 {
-    "title": "使用",
     "intro": {
         "title": "快速介绍",
         "t_why": "为什么使用Vitamins",
@@ -37,6 +36,7 @@
             "p2_firewall": "Vitamins依赖本地网络与捕捉设备及渲染软件通信，如果在使用过程中出现防火墙提示，请点击允许。"
         }
     },
+    "t_use": "使用",
     "example": {
         "title": "示例",
         "t1_withVTS": "与VTS一起使用",

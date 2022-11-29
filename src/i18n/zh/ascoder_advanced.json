@@ -15,7 +15,7 @@
     "p_builtin": "Vitamins 以插件的形式内置了一些快捷操作，目前包括",
     "li_vts": "vPlugin.vts 用于获取vts内的参数",
     "li_sods": "vPlugin.SecondOrderSystem 用于构建和计算二阶系统",
-    "p_next": "这俩个对象的使用会在下一节里演示。",
+    "p_next": "这俩个对象的使用会在下一节'示例'里演示。",
     "t_usevts": "使用VTS参数",
     "p_fetch": "在设置里启用 fetch VTS parameters data选项后，你将可以使用VTS的input parameters的值加入计算。",
     "p_access": "你可以通过vPlugin.vts.defaultParam和vPlugin.vts.customParam 获取vts默认参数和由Vitamins或其他插件添加的自定义参数。"

@@ -12,10 +12,10 @@ export default function GetStarted() {
         <Headings h="2" id="system_tray" class="" text={i18n.t(lp + 'system_tray.title')}></Headings>
         <p>{i18n.t(lp + 'system_tray.p_mainly')}</p>
         <p>{i18n.t(lp + 'system_tray.p_shortcut')}</p>
-        <img src={imgPath + ""} alt="" />pics⭐ 系统托盘截图
+        <img src={imgPath + "know_tray.png"} alt="" />
         <blockquote>{i18n.t(lp + 'system_tray.bq_attemp')}</blockquote>
         <Headings h="2" id="Settings" class="" text={i18n.t(lp + 'settings.title')}></Headings>
-        <img src={imgPath + ""} alt="" />pics⭐ 设置面板截图
+        <img src={imgPath + "know_setting.png"} alt="" />
         <p>{i18n.t(lp + 'settings.p_autoconn')}</p>
         <p>{i18n.t(lp + 'settings.p_fetch')}</p>
     </article>

@@ -3,7 +3,7 @@
     "t_exp": "表达式模式",
     "p_inexp": "在表达式模式下编辑Param，就像是中学时期，用等式表达自变量和因变量的关系一样，您需要用数学的语言描述param和blendshapes的关系。",
     "t_warmip": "热身",
-    "p_simcase": "最简单的例子，你想创建一个param表示mouthPucker这个表情，这个表情只与同名的blendshape有关，那么Param的值 可以简单的等于 mouthPucker这个blendshape的值。所以我们在编辑部分仅填入mouthPucker.",
+    "p_simcase": "最简单的例子，你想创建一个param表示mouthFunnel这个表情，这个表情只与同名的blendshape有关，那么Param的值 可以简单的等于 mouthFunnel这个blendshape的值。所以我们在编辑部分仅填入mouthFunnel.",
     "t_deeper": "深入一些",
     "p_usecase": "一个实际的用例，你想创建一个Param表示标准Live2D Parameter中的BrowLY。",
     "p_browrange": "BrowLY的范围是【-1，1】，默认值是0，其中正方向表示向上。",

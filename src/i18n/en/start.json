@@ -1,5 +1,4 @@
 {
-    "title": "Use",
     "intro": {
         "title": "Quick Intro",
         "t_why": "Why Vitamins",
@@ -22,6 +21,7 @@
         "title": "Installation",
         "p2_run": "Extract the zip archive to any location and run Vitamins.exe to start the program."
     },
+    "t_use": "Use",
     "req": {
         "title": "Requirements",
         "hardware": {

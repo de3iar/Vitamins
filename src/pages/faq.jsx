@@ -5,11 +5,18 @@ export default function GetStarted() {
     const i18n = useI18n()
     const name1 = 1
     const imgPath = "/src/assets/images/faq/"
+    const videoPath = "/src/assets/videos/faq/"
     const lp = "faq:"
     return <article className="prose bg-base-100 m-20 h-fit">
 
         <Headings h="1" id="" class="" text={i18n.t(lp + 'title')}></Headings>
         <Headings h="2" id="vtslag" class="" text={i18n.t(lp + 't_vtslag')}></Headings>
+        <li>VBridger v1.07(30/11/2022)
+            <video src={videoPath + "faq_jitter_vb.mp4"} controls muted className="w-3/6"></video>
+        </li>
+        <li>Vitamins
+            <video src={videoPath + "faq_jitter_vita.mp4"} controls muted className="w-3/6"></video>
+        </li>
         <p>{i18n.t(lp + 'p_mech')}</p>
         <li>{i18n.t(lp + 'li_conti')}</li>
         <li>{i18n.t(lp + 'li_block')}</li>

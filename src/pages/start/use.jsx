@@ -6,7 +6,7 @@ export default function GetStarted() {
     const imgPath = "/src/assets/images/getting_started/"
     const lg = "start:"
     return <article className="prose bg-base-100 m-20 h-fit">
-        <Headings h="1" id="title" class="content_title pb-8 " text={i18n.t(lg + 'title')} />
+        <Headings h="1" id="title" class="content_title pb-8 " text={i18n.t(lg + 't_use')} />
 
 
         <Headings h="2" id="requirements" class="" text={i18n.t(lg + 'req.title')}></Headings>

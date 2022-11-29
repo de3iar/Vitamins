@@ -10,9 +10,9 @@ export default function GetStarted() {
 
         <Headings h="1" id="impAndLoad" class="" text={i18n.t(lp + 'title')}></Headings>
         <p>{i18n.t(lp + 'p_load')}</p>
-        <img src={imgPath + ""} alt="" />pics⭐
+        <img src={imgPath + "imp_load.png"} alt="" />
         <p>{i18n.t(lp + 'p_imp')}</p>
-        <img src={imgPath + ""} alt="" />pics⭐
+        <img src={imgPath + "imp_import.png"} alt="" />
     </article >
 
 }

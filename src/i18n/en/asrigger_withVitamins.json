@@ -2,7 +2,7 @@
     "title": "Rigging Live2d with Vitamins",
     "s_this": "This section does not contain details of Live2d rigging, as the creators of Vitamins do not rig Live2d, and this section will only give you advice and reference for learning.",
     "t_arkit": "Familiar with Arkit blendshapes",
-    "p_arkit": "Vitamins uses Arkit's standard face capture input as raw data. Therefore, you should probably first refer to apple's documentation on Arkit.",
+    "p_arkit": "Vitamins uses Arkit's standard face capture input as raw data. Therefore, you should probably first refer to apple's documentation on Arkit Blendshapes.",
     "p_observe": "And it is also possible to observe the performance of all the blendshape expressions directly within Vitamins. You can right-click the blendshape input values or click the slider settings and face model buttons below.",
     "p_complete": "You should then complete prefix to standardise your face to get the same face capture performance as the user. This will allow you to test, configure and distribute the model and VTS profile in the same standard as the user, making the model ready to use without further calibration.",
     "p_whenRig": "When rigging, you can create a live2d parameter for one blendshape or group a range of blendshapes for a single Live2d Parameter. For example,",

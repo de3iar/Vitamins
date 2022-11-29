@@ -12,7 +12,7 @@ export default function GetStarted() {
         <p>{i18n.t(lp + 'p_before')}</p>
 
         <Headings h="2" id="failiarity" class="" text={i18n.t(lp + 't_fami')}></Headings>
-        <img src={imgPath + ""} alt="" />pics⭐ editor
+        <img src={imgPath + "fameditor.png"} alt="" />
         <li>1. {i18n.t(lp + 'li_1')}</li>
         <li>2. {i18n.t(lp + 'li_2')}</li>
         <li>3. {i18n.t(lp + 'li_3')}</li>
@@ -25,7 +25,7 @@ export default function GetStarted() {
         <Headings h="2" id="languages" class="" text={i18n.t(lp + 't_lang')}></Headings>
         <p>{i18n.t(lp + 'p_editorlang')}</p>
         <p>{i18n.t(lp + 'p_both')}</p>
-        <img src={imgPath + ""} alt="" />pics⭐ 编辑器里使用函数
+        <img src={imgPath + "intro_random.png"} alt="" />
         <p>{i18n.t(lp + 'p_diff')}</p>
     </article >
 

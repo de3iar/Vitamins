@@ -15,7 +15,7 @@
     "li_vtsparam": "Using the VTS parameter",
     "p_fetch": "With 'Fetch VTS parameter data' enabled, you can accsee the VoiceVolume via vPlugin.vts.defaultParam.VoiceVolume",
     "p_just": "Then just calculate it together with MouthOpen.",
-    "bq_twomode": "The latency of the Add method will be lower than that of fetching the VTS parameter. And the Fetching will pressure the VTS plugin server. Moreover, if you are using other VTS plugins simultaneously, you may induce these plugins to trigger VTS plugin service jitter.",
+    "bq_twomode": "The latency of the Add method will be lower than that of using the VTS parameter. And the Fetching will pressure the VTS plugin server. Moreover, if you are using other VTS plugins simultaneously, you may induce these plugins to trigger VTS plugin service jitter.",
     "t_sods": "second-order system",
     "p_cratesods": "You can create a second-order system using new vPlugin.SecondOrderSystem(f,z,r).",
     "li_freq": "Where f is the frequency and determines how fast the system change; the higher the value, the faster the system changes.",

@@ -2,7 +2,7 @@
     "title": "如何利用Vitamins制作Live2d",
     "s_this": "这一部分并不包含Live2d制作的细节，因为Vitamins的创建者不会建模（rig live2d），本篇只会给予您学习的建议和参考。",
     "t_arkit": "熟悉Arkit Blendshapes",
-    "p_arkit": "Vitamins使用Arkit标准的面捕输入作为原始数据。你首先或许应当参阅apple 公司的Arkit相关文档。",
+    "p_arkit": "Vitamins使用Arkit标准的面捕输入作为原始数据。你首先或许应当参阅apple 公司的Arkit Blendshapes相关文档。",
     "p_observe": "当然也可以直接在Vitamins内，右键点击输入参数数值，或使用下方的模型显示和滑条控制功能，观察面部表现。",
     "p_complete": "之后您应当也完成一次前处理，在加深对blendshapes理解的同时，将自己的脸也标准化，从而最大程度的获得与使用者相同的面捕表现。这样您在后续制作模型时，就可以直接使用自己的脸进行测试，配置和分发模型及VTS配置文件，实现模型的开箱即用。",
     "p_whenRig": "在进行建模时，可以选择以blendshape标准进行单一表情的live2d parameter的设置，或者以”组“的思想进行创建，也就是以多个blendshapes混合为一组，控制单一的Live2d parameter，",
