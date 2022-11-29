@@ -1,0 +1,8 @@
+{
+    "title": "分发与交付",
+    "t_VTS": "VTS",
+    "p_when": "在分发使用了Vitamins的Live2d模型文件时，您首先应当在VTS内完成Vitamins Params和Live2d Parameters的绑定，并确保各Live2d Parameter表现正常。",
+    "p_model": "然后前往VTS的模型目录，将模型文件夹打包，此时打包的文件内应该包含VTS对此模型的配置文件——模型名.vtube.json",
+    "p_save": "之后前往Vitamins的存档目录，复制您在这个模型上使用的存档文件，并添加进压缩包内。",
+    "p_zip": "此时这个压缩包内应该看起来是这样的："
+}

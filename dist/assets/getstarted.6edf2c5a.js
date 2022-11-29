@@ -1,0 +1,1 @@
+import{u as l,i,t as n}from"./index.7a336bd9.js";const a=n('<div class="bg-base-100 w-full m-12"><h3 class="text text-4xl font-bold mb-8"></h3><div class=""></div></div>');function o(){const e=l();return(()=>{const t=a.cloneNode(!0),s=t.firstChild;return i(s,()=>e.t("getting-started:title")),t})()}export{o as default};

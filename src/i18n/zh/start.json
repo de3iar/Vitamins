@@ -1,0 +1,56 @@
+{
+    "title": "使用",
+    "intro": {
+        "title": "快速介绍",
+        "t_why": "为什么使用Vitamins",
+        "t_stand": "标准化校准",
+        "p_typically": "通常渲染软件将原始数据计算合并成 Live2D 标准的输入参数供用户校准和使用。这种处理方法下，因为个体差异，参与计算的 blendshapes 的实际范围是完全未知的，之后用户进行校准时，很可能会放大这种不确定性的影响。",
+        "p_instead": "而 Vitamins 将校准调整到了计算开始之前，对原始的 blendshapes 进行直接校准。这一校准的最终目标对于每个人都是是完全一样的，因此可以实现一个标准化的校准处理。",
+        "p_thiscali": "这一校准的目标是让每个人的脸都可以在完整的数值范围上表达每一个blendshapes，解决因数值范围问题产生的计算个体差异。",
+        "bq_indivi": "范围的相同并不意味着个人色彩的消失。虽然范围是一致的，但是因为脸部肌肉，表情习惯的不同，数值在范围间如何变化，仍然是由演员本人决定的。",
+        "p_oneadvan": "这样做的一个好处是",
+        "p_noneed": "在标准下创造出的Live2D 模型、挂件，以及Vitamins存档等，都可以做到开箱即用。也就是无需再对每个模型、存档进行额外的单独校准。",
+        "t_editor": "强大的编辑器",
+        "p_custom": "Vitamins的Parameters编辑器允许你创建自定义名称、范围、融合模式、编辑模式的Parameters.",
+        "p_two": "此处的计算模块使用俩种编辑模式。你可以使用表达式（函数）形式的编辑模式完成单行表达的数学计算。或者使用编程模式，对数据进行更加强大且多样化的处理。",
+        "link_drink_straw": "用吸管喝水"
+    },
+    "t_download": "下载与安装",
+    "instal": {
+        "t_down": "下载",
+        "p_down": "目前，你可以从github的release页面下载Vtiamins。",
+        "title": "安装",
+        "p2_run": "将zip压缩包解压至任意位置，运行Vitamins.exe即可启动本程序。"
+    },
+    "req": {
+        "title": "使用需求",
+        "hardware": {
+            "title": "硬件",
+            "p1_follow_types": "Vitamins 目前支持以下种类的捕捉输入。",
+            "bq1_onios": "IOS设备的面捕依赖于深感摄像头工作。在Iphone X及之后的所有Iphone设备都安装了此硬件，第三代 ipad pro及之后的Ipad设备也一样具备此功能。",
+            "p2_ios_tech": "深感摄像头的技术是经历过多次升级的，所以你或许会发现，在更高代数的设备上，追踪效果会更好。",
+            "bq2_rtx": "需要2060及之后的RTX显卡，仅在Nvidia显卡上可用。需要安装"
+        },
+        "software": {
+            "title": "软件需求",
+            "p1_render": "Vitamins 本身并不具备渲染输出的能力，模型的渲染和显示需要依赖额外的软件完成，目前仅支持Vtube Studio.",
+            "p2_firewall": "Vitamins依赖本地网络与捕捉设备及渲染软件通信，如果在使用过程中出现防火墙提示，请点击允许。"
+        }
+    },
+    "example": {
+        "title": "示例",
+        "t1_withVTS": "与VTS一起使用",
+        "t2_connectios": "连接到IOS端VTS",
+        "li_samelan": "将运行Vitamins 的电脑与 运行Vtube Studio 的IOS 设备接入同一局域网内。（如果你在使用学校或公司网络，很可能会出现链接问题，这种情况下推荐使用手机热点、路由器等方式确保软件处在同一局域网下）。",
+        "li_startios": "启动IOS 上的 Vtube Studio，并在设置页面，打开最下方的 3rd Party PC Clients 。点击 '显示IP' 记录下ip地址。",
+        "li_firstIndi": "点击Vitamins 左上角的第一个指示灯，填入Ios设备的ip地址。然后点击连接。注意，如果有多个软件或设备同时连接至IOS VTS，可能会出现连接缓慢、卡顿的情况。",
+        "li_connected": "如果连接成功，你会看到指示灯变绿",
+        "t_connectpcVTS": "连接到PC端VTS",
+        "li_start": "启动VTS ，并打开插件。",
+        "li_secIndi": "点击Vitamins左上角第二个指示灯，填入VTS 插件端口号，或直接点击连接，Vitamins会自动寻找并连接所有打开插件端口的VTS实例。",
+        "li_clickallow": "在VTS内点击允许",
+        "li_connsecc": "如果连接成功，你会看到指示灯变绿。且在连接面板内出现所有已连接的VTS端口号，你可以右键它进行管理。",
+        "p_prefix": "至此连接已经完成了，但是你可能会发现你的模型表现有些不理想。这是因为您还未对您的脸进行校准，在Vitamins里，我称之为",
+        "a_prefix": "前处理"
+    }
+}

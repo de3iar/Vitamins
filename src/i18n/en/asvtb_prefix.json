@@ -1,5 +1,21 @@
 {
-    "prefix": {
-        "title": "Prefix"
-    }
+    "title": "Prefix",
+    "p_principle": "The principle of Prefix is to remap your face's expressions range onto the standard field, simple and powerful.",
+    "t_howto": "How to Prefix",
+    "p_toAch": "It's very simple and intuitive to achieve this, you just need to let Vitamins know the default and maximum values of your expressions.",
+    "p_first": "First, click on the value you want to adjust to open the Prefix panel.",
+    "bq_valuetop": "The values at the top of this screen are the original values, the middle is the operating area, and the 'Lock range' button at the bottom usually remains open.",
+    "p_relax": "Keeping your face expressionless and relaxed, click the '[' button",
+    "p_tomax": "Then keep your head, do not move or turn, then try to maximum the value as you can, hold it and click the ']' button.",
+    "bq_dk": "If you don't know how to make this expression, right-click on the value and Vitamins will loop the expression animation for you. You can also manually show and control expression by clicking on the slider settings and face model buttons below.",
+    "p_finetune": "If you want to fine-tune the prefix values, you can try dragging the two slider bars below, or enter the numbers manually.",
+    "p_atthispoint": "At this point you have prefixed one blendshape. You will need to do this for all blendshapes that you cannot do the full 0-1 range.",
+    "p_follow": "The above figs respresent a simple example.",
+    "p_myexam": "When I relaxed my face, the value for jawOpen is 0.05. And, when growing my mouth to its maximum, the value is about 0.75. So here, so the numbers to fill in are 0.05 and 0.75.",
+    "t_rePrefix": "When to Reprefix",
+    "s_Note": "The prefix normally only needs to be calibrated once. However, recalibration will be required in the following cases.",
+    "li_newdev": "When using new tracking devices.",
+    "li_diffSolu": "When using different face capture solutions, such as switch from IOS to Nvidia broadcast.",
+    "li_campos": "Significant changes happened in camera placement. For example, moving the camera from front to side.",
+    "li_growup": "During your activities as a facial capture actor, the range of your face's capabilities may change due to prolonged practice, in which case you may, and are advised to, adjust the prefix to the modified blendshapes."
 }

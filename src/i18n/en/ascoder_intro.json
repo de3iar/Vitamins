@@ -1,0 +1,17 @@
+{
+    "title": "Introduction",
+    "p_before": "Before reading the following, you should read through the As VTB section and complete the Prefix to understand the end-user's environment and potential requirements.",
+    "t_fami": "Familiarity with the editor",
+    "li_1": "Output values",
+    "li_2": "Time cost",
+    "li_3": "Editor mode switching",
+    "li_4": "Signal  switching (will not sent to VTS in off state)",
+    "li_5": "Min Default Max",
+    "li_6": "Fusion mode",
+    "bq_fusion": " In set mode, the value in VTS is equal to the output value (overwrite). In add mode, the value in VTS equals the original value plus the output value. Usually, the Set mode is sufficient.",
+    "li_7": "Expression/code editor.",
+    "t_lang": "Language",
+    "p_editorlang": "Vitamins use JavaScript as its editor language, an easy-to-read and learn language, so I'm sure you'll be familiar with the editor very soon.",
+    "p_both": "In both modes, you are exactly writing JavaScript code. This means that you can also use JavaScript functions when using expression mode.",
+    "p_diff": "The difference between these two modes is that the editing is wrapped to a different degree, making it easier for people with varying programming experiences to use the param editor in a way that suits them and their calculation method."
+}

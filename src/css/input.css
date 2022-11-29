@@ -8,6 +8,29 @@ body {
 
 }
 
+::-webkit-scrollbar {
+  width: 6px;
+  height: 8px;
+}
+
+/* 滚动槽 */
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
+
+/* 滚动条滑块 */
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: hsl(var(--bc)/0.2);
+
+  -webkit-box-shadow: rgba(0, 0, 0, 0.1);
+}
+
+::-webkit-scrollbar-thumb:window-inactive {
+  background: rgba(0, 0, 0, 0);
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
@@ -15,7 +38,9 @@ code {
 
 #sidebarl {
 
-  height: calc(100vh - 80px);
+  height: calc(100vh - 80px - 40px);
+
+  mask-image: linear-gradient(to bottom, black 95%, transparent 100%);
 }
 
 

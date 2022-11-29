@@ -1,0 +1,56 @@
+{
+    "title": "Use",
+    "intro": {
+        "title": "Quick Intro",
+        "t_why": "Why Vitamins",
+        "t_stand": "Standardised calibration",
+        "p_typically": "Typically Live2d rendering softwares calculate and wrap raw data into Live2D standard input parameters for the user to calibrate and use. However, With this processing, the actual range of blendshapes involved in the calculation is completely unknown because of individual differences, and the impact of this uncertainty is likely to be magnified when the user calibrates later.",
+        "p_instead": "Instead, Vitamins calibrate the original blendshapes directly before the calculation begins. The goal of this calibration is the same for everyone to achieve a standardised calibration process.",
+        "p_thiscali": "This calibration aims to allow each individual face to express each blendshapes on the full range of values, resolving the individual differences in computation that arise from the range of values problem.",
+        "bq_indivi": "The same range does not mean that the individual colours disappear. Although the ranges are even, it is still up to the actor to decide how the values vary between minimum and maximum because of differences in facial muscles and expression habits.",
+        "p_oneadvan": "One advantage of this is that,",
+        "p_noneed": "Live2D models and items and Vitamins saves created under the standard can be used out of the box. That is, there is no need for additional individual calibration of each model, saves.",
+        "t_editor": "Powerful editor",
+        "p_custom": "Vitamins' Parameters editor allows you to create parameters with custom names, ranges, fusion modes and edit methods.",
+        "p_two": "The calculation module here has two editing modes. You can use the editing mode of expressions (functions) to complete mathematical calculations with a single line. Or use the programming mode for more powerful and various processing of data.",
+        "link_drink_straw": "drinkWithStraw"
+    },
+    "t_download": "Download And Install",
+    "instal": {
+        "t_down": "Download",
+        "p_down": "You can download Vitamins from the release page on GitHub.",
+        "title": "Installation",
+        "p2_run": "Extract the zip archive to any location and run Vitamins.exe to start the program."
+    },
+    "req": {
+        "title": "Requirements",
+        "hardware": {
+            "title": "Hardware",
+            "p1_follow_types": "Vitamins currently support the following types of tracking inputs.",
+            "bq1_onios": "Face tracking on IOS devices relies on the TrueDepth camera to work. This hardware is installed on all iPhone devices from the iPhone X onwards, as well as on the third-gen iPad pro and later Ipad devices.",
+            "p2_ios_tech": "The technology of the TrueDepth camera has been upgraded several times, so you may find that the tracking performance is better on higher-generation devices.",
+            "bq2_rtx": " Requires RTX 2060 or later RTX graphics cards, available on Nvidia graphics cards only. Requires the"
+        },
+        "software": {
+            "title": "Software",
+            "p1_render": "Vitamins itself cannot render output - the rendering and display of models is dependent on additional software, currently only available with",
+            "p2_firewall": "Vitamins rely on the local network to communicate with tracking devices and rendering software; if a firewall notification appears during use, please click 'allow'."
+        }
+    },
+    "example": {
+        "title": "Example",
+        "t1_withVTS": "Use with VTS",
+        "t2_connectios": "Connect to IOS VTS",
+        "li_samelan": "Connect the pc and ios device to the same LAN. (If you are using a school or company network, you will probably have problems with the connection, in which case it is recommended to use a phone hotspot, router etc.).",
+        "li_startios": "Start Vtube Studio on IOS, and at the bottom of the settings page, turn on 3rd Party PC Clients. Next, click on 'Show IP' and remember the IP address.",
+        "li_firstIndi": "Click on the first indicator in the top left corner of Vitamins and fill in the IP address of your Ios device. Then click Connect. Note that if multiple software or devices are connected to IOS VTS simultaneously, the connection may be slow and laggy.",
+        "li_connected": "If the connection is successful, you will see the light turn green",
+        "t_connectpcVTS": "Connect to PC VTS",
+        "li_start": "Start VTS , and turn on the plugin.",
+        "li_secIndi": "Click on the second indicator in the top left corner of Vitamins will show the output connection panel. Then fill in the VTS plugin port number, or simply click on Connect and Vitamins will automatically find and connect to all VTS instances with the plugin port open.",
+        "li_clickallow": "Click Allow on VTS",
+        "li_connsecc": "If the connection is successful, you will see the light turn green. And all connected VTS port numbers appear in the connection panel. You can right-click on it to manage..",
+        "p_prefix": "The connection has been made at this point, but you may find that your model needs to behave better. This is because you have not yet calibrated your face, which in Vitamins, I call it",
+        "a_prefix": "Prefix"
+    }
+}

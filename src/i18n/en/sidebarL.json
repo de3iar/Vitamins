@@ -1,11 +1,28 @@
 {
     "menu-start": {
         "title": "Start",
-        "getstarted": "Getting Started",
+        "use": "Use",
+        "download": "Download and Install",
         "intro": "Introduction"
     },
     "menu_as_actor": {
         "title": "As Vtuber/Actor",
-        "prefix": "Prefix"
-    }
+        "prefix": "Prefix",
+        "impAndLoad": "Importing and loading",
+        "knowledge": "Useful knowledge"
+    },
+    "as_rigger": {
+        "title": "As Rigger",
+        "withVitamins": "Rigging with Vitamins",
+        "distru": "Distribution"
+    },
+    "as_coder": {
+        "title": "As Param Coder",
+        "intro": "Introduction",
+        "info": "Infomations",
+        "quickstart": "Quick Start",
+        "advanced": "Advanced",
+        "examples": "Examples"
+    },
+    "faq": "FAQ"
 }

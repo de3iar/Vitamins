@@ -12,14 +12,14 @@ function Headings(props) {
             </h1>
         </Match>
         <Match when={props.h == 2}>
-            <h2 className={props.class + " text-secondary"}>
+            <h2 id={props.id} className={props.class + " text-secondary"}>
                 <Inner id={props.id} />
                 {i18n.t(props.text)}
             </h2>
         </Match>
         <Match when={props.h == 3}>
             <h3 className={props.class}>
-
+                <Inner id={props.id} />
                 {i18n.t(props.text)}
             </h3>
         </Match>
