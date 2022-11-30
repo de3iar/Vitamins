@@ -1,0 +1,1 @@
+import{u as a,i as o,c as r,t as n}from"./index.21191847.js";import{H as c}from"./headings.43d59606.js";const i=n('<article class="prose bg-base-100 m-20 h-fit"></article>');function m(){const e=a(),s="about:";return(()=>{const t=i.cloneNode(!0);return o(t,r(c,{h:"1",id:"",class:"",get text(){return e.t(s+"title")}})),t})()}export{m as default};

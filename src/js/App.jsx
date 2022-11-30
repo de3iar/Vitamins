@@ -7,7 +7,7 @@ import { createI18n } from '/src/i18n/context';
 
 import Mainbody from '../components/mainbody';
 
-
+import { changeURLArg } from './changeURL';
 
 function App() {
   const [loaded, setLoaded] = createSignal(false);
@@ -20,6 +20,7 @@ function App() {
   });
   const handleOnChange = (lang) => {
     i18next.changeLanguage(lang).then(() => {
+      changeURLArg("lang", lang)
       updatei18nState(i18next);
     })
   }

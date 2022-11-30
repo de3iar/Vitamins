@@ -20,6 +20,7 @@ const i18n = i18next
             "asvtb_knowledge",
             "asvtb_prefix",
             "faq",
+            "about",
             "hero",
             "index",
             "start",

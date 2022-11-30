@@ -19,8 +19,6 @@ function SidebarL() {
                 <SidebarLi href="/intro" text="sidebarL:menu-start.intro" />
                 <SidebarLi href="/download" text="sidebarL:menu-start.download" />
                 <SidebarLi href="/use" text="sidebarL:menu-start.use" />
-
-
                 <li class="menu-title">
                     <span>{i18n.t('sidebarL:menu_as_actor.title')}</span>
                 </li>
@@ -45,8 +43,13 @@ function SidebarL() {
                 <SidebarLi href="/coder_Infomations" text="sidebarL:as_coder.info" />
                 <SidebarLi href="/coder_advanced" text="sidebarL:as_coder.advanced" />
                 <SidebarLi href="/coder_example" text="sidebarL:as_coder.examples" />
+                <li class="menu-title">
+                    <span>{i18n.t('sidebarL:misc')}</span>
+
+                </li>
                 <li></li>
                 <SidebarLi href="/faq" text="sidebarL:faq" />
+                <SidebarLi href="/about" text="sidebarL:about" />
             </ul>
         </div>
 

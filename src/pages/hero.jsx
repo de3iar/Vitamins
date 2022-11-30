@@ -3,7 +3,7 @@ import { useI18n } from "/src/i18n/context";
 export default function Hero() {
     const i18n = useI18n()
 
-    return <div className="bg-base-100 w-full">
+    return <div className="bg-base-100 w-full select-none">
         <div class="hero w-full h-screen bg-base-200">
             <div class="hero-content text-center">
                 <div class="w-full">
