@@ -1,0 +1,83 @@
+{
+    "intro": {
+        "title": "Quick Intro",
+        "t_why": "Why Vitamins",
+        "t_overview": "Overview",
+        "VBpioneered": "The VBridger pioneered the use of user-defined input parameters but revealed several problems, the most central of which was that parameter script developers did not fit well into the existing two-person rigger-actor development model.",
+        "currentDev": "In the current dev model, the role of the parameter script developer is often taken on by the rigger. This works, but not well ,the learning costs behind this are enormous, it is difficult for the rigger to code complex parameter and they are easily confined to plain applications, as this is not riggers area of expertise.",
+        "typically": "Typically Live2d rendering softwares calculate and wrap raw data into Live2D standard input parameters, which are only available for the user to calibrate and use when configuring the model or later.",
+        "uncertainRange": "with this method, the actual range of blendshapes involved in the calculation is completely unknown because of individual differences, which may lead to a large discrepancy between the actual and the designed proportions of calculation items. Subsequent calibration of the  results cannot repair this discrepancy, which will lead to an irreconcilable uncertainty. The more complex the calculation, the greater the impact of this problem.",
+        "wrapbefore": "Therefore, the traditional 'wrap before calibrate' method cannot be applied to build parameters with multiple input blendshapes in a generic and accurate way. In order to meet the needs, devs has to tailored to each client.",
+        "dividCali": "To achieve this, Vitamins done the whole calibration before calculate params, standardising the calibration results so that the values each person passes to the calculation will have fixed extreme and default values.",
+        "reduceUncert": "This will significantly reduce uncertainty in development and will allow individual roles to focus on their own content without having to worry about adapting to other roles, enabling the separation of riggers and script developers",
+        "scriptDevOnly": "Script developers only need to develop the scripts themselves",
+        "riggerDevOnly": "The rigger only needs to rig as usual, using completed script saves and binding the parameters in the VTS.",
+        "reduceCrossover": "This working model greatly reduces the crossover of burdens between roles and the need for expertise in other areas. It also allows for the creation of fairly generic script saves, Live2d models, items, etc.",
+        "simpliTransfer": "This will also simplify the rigger-actor transfer. The rigger needs to complete the binding and adjust parameters within the VTS during development to ensure that the model works properly. Traditionally, after the transfer to the actor, the actor would need to second-tune the model within the VTS to ensure quality use.",
+        "directlyPass": "Second-tune can be drastically bypassed using Vitamins, because, after calibration, the range of values input to the calculation is already the same for both individuals. so the output range will also the same. Except for such parameters as mouthform and mouthopen, which are quite sensitive to 'how they change', all other parameters no longer require second-tune and can be used directly.",
+        "t_advanofVita": "Advantages of Vitamins.",
+        "t_stand": "More accurate and standardised calibration",
+        "bq_descBlendshape": "blendshape is understood here as a numerical value indicating the degree of facial expression, which ranges from [0, 1].",
+        "t_advan": "The calibration of Vitamins has the following advantages.",
+        "li_lowhigh": "Low difficulty, high efficiency.",
+        "p_lowhigh": "Calibration of Vitamins only focuses on individual faces. There is no need to calibrate the model at the same time, making the calibration operation and target quite simple and intuitive.",
+        "fastway": "For the calibration of most input parameters, the user only needs to adjust one value. Vitamins also offer 3 methods. In the fastest way, the user only needs to: make a facial expression and click. And you are done with a parameter.",
+        "li_highacc": "High accuracy.",
+        "usearkit": "The calibration operating primitive expression values uses the Arkit standard.",
+        "compares": "Compares to other Live2d Software that calibrates wrapped parameters, This avoids the problem of 'Calibration can amplify individual impact', as indicated above.",
+        "li_standresult": "Standardised calibration results",
+        "fixedExtreme": "The calibration results are fixed at the same extreme and default values (zero points).",
+        "sharethesame": "rigger, script developers, and actors, share the same range of values, which results in a significant reduction of uncertainty in development, handover and use.",
+        "bq_colour": "The same range does not mean that the individual colours disappear. Although the ranges are even, it is still up to the actor to decide how the values vary between minimum and maximum because of differences in facial muscles and expression habits.",
+        "li_reuse": "High reusability.",
+        "notneedRecali": "The users do not need to re-calibrate for each model.",
+        "afterfirst": "After the first calibration, any Live2d model, items, Vitamins saves, etc. built to Vitamins standards can be used directly. If no big changes to devices and the environment.",
+        "powerfulEditor": "A powerful parameter script editor",
+        "vbcompress": "VBridger has compressed the editing of parameters into expressions, probably to make it less difficult to use, but this also reduces the upper limit of what parameter customisation can achieve.",
+        "vitaminsEditor": "Vitamins' parameter editor goes a step further by allowing the user to switch between expression mode and programming mode.",
+        "expOrCode": "You can use the expression mode to perform mathematical calculations on a single line of expression. Or use the programming mode for more powerful and varied processing of data.",
+        "link_drink_straw": "drinkWithStraw",
+        "VTS_model_config": "VTS model Config",
+        "detail": "Details",
+        "kchangenothing": " calibration does not fix the ratio difference"
+    },
+    "t_download": "Download And Install",
+    "instal": {
+        "t_down": "Download",
+        "p_down": "You can download Vitamins from the release page on GitHub.",
+        "title": "Installation",
+        "p2_run": "Extract the zip archive to any location and run Vitamins.exe to start the program."
+    },
+    "t_use": "Use",
+    "req": {
+        "title": "Requirements",
+        "hardware": {
+            "title": "Hardware",
+            "p1_follow_types": "Vitamins currently support the following types of tracking inputs.",
+            "bq1_onios": "Face tracking on IOS devices relies on the TrueDepth camera to work. This hardware is installed on all iPhone devices from the iPhone X onwards, as well as on the third-gen iPad pro and later Ipad devices.",
+            "p2_ios_tech": "The technology of the TrueDepth camera has been upgraded several times, so you may find that the tracking performance is better on higher-generation devices.",
+            "bq2_rtx": " Requires RTX 2060 or later RTX graphics cards, available on Nvidia graphics cards only. Requires the"
+        },
+        "software": {
+            "title": "Software",
+            "p1_render": "Vitamins itself cannot render output - the rendering and display of models is dependent on additional software, currently only available with",
+            "p2_firewall": "Vitamins rely on the local network to communicate with tracking devices and rendering software; if a firewall notification appears during use, please click 'allow'."
+        }
+    },
+    "example": {
+        "title": "Example",
+        "t1_withVTS": "Use with VTS",
+        "t2_connectios": "Connect to IOS VTS",
+        "li_samelan": "Connect the pc and ios device to the same LAN. (If you are using a school or company network, you will probably have problems with the connection, in which case it is recommended to use a phone hotspot, router etc.).",
+        "li_startios": "Start Vtube Studio on IOS, and at the bottom of the settings page, turn on 3rd Party PC Clients. Next, click on 'Show IP' and remember the IP address.",
+        "li_firstIndi": "Click on the first indicator in the top left corner of Vitamins and fill in the IP address of your Ios device. Then click Connect. Note that if multiple software or devices are connected to IOS VTS simultaneously, the connection may be slow and laggy.",
+        "li_connected": "If the connection is successful, you will see the light turn green",
+        "t_connectpcVTS": "Connect to PC VTS",
+        "li_start": "Start VTS , and turn on the plugin.",
+        "li_secIndi": "Click on the second indicator in the top left corner of Vitamins will show the output connection panel. Then fill in the VTS plugin port number, or simply click on Connect and Vitamins will automatically find and connect to all VTS instances with the plugin port open.",
+        "li_clickallow": "Click Allow on VTS",
+        "li_connsecc": "If the connection is successful, you will see the light turn green. And all connected VTS port numbers appear in the connection panel. You can right-click on it to manage..",
+        "p_prefix": "The connection has been made at this point, but you may find that your model needs to behave better. This is because you have not yet calibrated your face, which in Vitamins, I call it",
+        "a_prefix": "Prefix"
+    }
+}

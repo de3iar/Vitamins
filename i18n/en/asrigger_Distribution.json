@@ -1,0 +1,8 @@
+{
+    "title": "Distribution",
+    "t_VTS": "VTS",
+    "p_when": "When distributing a Live2d model that uses Vitamins, you should first complete the binding and adjusting of Live2d Parameters within the VTS and ensure that each Live2d Parameter behaves properly.",
+    "p_model": "Then go to the model directory of the VTS and zip the model folder, which should then contain the VTS configuration file. It looks like - modelname.vtube.json",
+    "p_save": "Then go to the save directory in Vitamins and copy the save file you used on this model and add it to the zip.",
+    "p_zip": "The zip should now look like this."
+}

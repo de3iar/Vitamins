@@ -1,13 +1,22 @@
 import { For, createSelector } from "solid-js";
-import { useI18n } from "/src/i18n/context";
+import { useI18n } from "@i18n/context";
+import langs from '/i18n/en/langs.json';
+function getLangList() {
+    let list = []
+    for (const key in langs) {
 
+        const title = langs[key];
+        const code = key
+        list.push({
+            title, code
+        })
+    }
+    return list
+}
 function switcher() {
     const i18n = useI18n()
     const isSelected = createSelector(() => i18n.language);
-    const availableLocales = () => [
-        { title: 'English', code: 'en' },
-        { title: '简体中文', code: 'zh' }
-    ];
+    const availableLocales = () => getLangList();
     return <ul tabindex="0" class="dropdown-content menu  p-2 shadow bg-base-200 bg-opacity-80 rounded-box w-52">
         <For each={availableLocales()}>
             {(item) => <li>

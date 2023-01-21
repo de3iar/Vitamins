@@ -1,10 +1,10 @@
-import { useI18n } from "/src/i18n/context";
+import { useI18n } from "/i18n/context";
 import Headings from '/src/components/content/headings';
 
 export default function GetStarted() {
     const i18n = useI18n()
     const name1 = 1
-    const imgPath = "/src/assets/images/ascoder/"
+    const imgPath = "/assets/images/ascoder/"
     const lp = "ascoder_Infomations:"
     return <article className="prose bg-base-100 m-20 h-fit">
 
@@ -25,7 +25,7 @@ export default function GetStarted() {
         <p>{i18n.t(lp + 'p_mathlib')}</p>
         <img src={imgPath + "info_math.png"} alt="" />
         <p>{i18n.t(lp + 'p_checkMath')}</p>
-        <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math">Math</a>
+        <a target={'_blank'} href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math">Math</a>
 
     </article >
 

@@ -1,0 +1,13 @@
+{
+    "title": "Infomations",
+    "t_copy": "Copy blendshape name",
+    "p_dbcl": "You can double click on the blendshape to copy its name.",
+    "t_codecom": "Code auto completion",
+    "p_autocom": "The code editor used by Vitamins has an auto-completion provider. You can quickly complete the code by pressing the tab or enter.",
+    "t_symbol": "Calculation symbols",
+    "p_jssyms": "In JavaScript, the +-*/ symbol indicates the most basic mathematical four operations, the ** symbol indicates exponentiation, e.g. 2**3=8,3**2=9, and % means modulo, i.e. taking the remainder, e.g. 3%2=1,8%3=2.",
+    "bq_pow": "You may be used to using the ^ symbol for exponentiation when writing expressions, but in a programming environment, ^ is often used as a binary operator, e.g. 0011^0001=0010, i.e. 3^1=2. Please avoid using ^.",
+    "t_math": "Maths Calculation Library Math",
+    "p_mathlib": "You can use Javascript's native Math library to do some mathematical operations, for example Math.abs(a) to take the absolute value of a and Math.max(a, b) to take the maximum between a and b.",
+    "p_checkMath": "You can check the functions and constants contained in the Math library here."
+}

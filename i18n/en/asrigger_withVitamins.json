@@ -1,0 +1,19 @@
+{
+    "title": "Rigging Live2d with Vitamins",
+    "s_this": "This section does not contain details of Live2d rigging, as the creators of Vitamins do not rig Live2d, and this section will only give you advice and reference for learning.",
+    "p_complete": "You should then complete calibration to standardise your face to get the same face capture performance as the user. This will allow you to test, configure and distribute the model and VTS profile in the same standard as the user, making the model ready to use.",
+    "t_arkit": "Familiar with Arkit blendshapes",
+    "p_arkit": "Vitamins uses Arkit's standard face capture input as raw data. Therefore, you should probably first refer to apple's documentation on Arkit Blendshapes.",
+    "p_observe": "And it is also possible to observe the performance of all the blendshape expressions directly within Vitamins. You can right-click the blendshape input values or click the slider settings and face model buttons below.",
+    "generally": "Generally , you just need to work as usual. If you, or your commissioner, want to use the Blendshapes standard expressions, you can archive them using the built-in arkit standard save.",
+    "p_whenRig": "When rigging, you can create a live2d parameter for one blendshape e.g. mouthPucker ",
+    "orGroup": "or group a range of blendshapes for a single Live2d Parameter. For example,",
+    "li_changetoge": "For blendshapes change together: the cheekSquint and eyeSquint tend to grow and weaken together. So you can combine them into one Live2d parameter. Another e.g.use blendshape mouthshrug to present mouth move up.",
+    "li_diff": "For blendshapes indicate different directions: eyelook (in-out)(up-down), jaw(left-right), mouth (left-right). These blendshapes in brackets are mutually exclusive and do not appear together. You can combine them into one parameter and indicate the direction with positive and negative. (e.g. jawX mouthX in example save)",
+    "t_creative": "Be creative",
+    "p_above": "The above follows the idea of 'creating facial expressions based on Blendshapes', but you don't necessarily need to do this.",
+    "p_other": "In Vitamins, you can make params to control other Live2d parts rather than the face, intuitively or logically.",
+    "p_ears": "For parts such as animal ears, tails, etc., it is possible to simulate them using 'emotions'. In simple terms, human facial expressions are translated into mathematical numbers of 'emotion' and then expressed on these components.",
+    "p_nekoear": "For the nekoEar parameter, I mixed eyebrows and eyeWide to express emotions such as panic, tension and concentration. Also, I used mouthX to control ears separately.",
+    "s_dontwant": "If you do not want to write your vitamins save, you can use the built-in example saves directly in your work Or collaborate with other script developer."
+}

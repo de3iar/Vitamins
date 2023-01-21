@@ -1,0 +1,18 @@
+{
+    "title": "FAQ",
+    "t_vtslag": "VTS laggy, jitter",
+    "p_mech": "Vitamins has an internal mechanism to avoid this problem, but jitter caused by other plugins or VTS itself can still affect Vitamins. Jitter in the video above may be caused by this sequence of events:",
+    "li_conti": "Requests sent continuously by the plugin to the VTS.",
+    "li_block": "VTS plugin server blocking.",
+    "li_render": "The rendering section cannot receive data from the plugin and switches back to the default input after a timeout.",
+    "li_comone": "The VTS plugin server takes a few seconds to complete one request, but hundreds or thousands of requests are still in the queue.",
+    "li_renderrec": "The rendering section receives the plugin data and switches to the plugin input.",
+    "li_still": "VTS plugin server is still blocking.",
+    "p_occurs": "The jitter you see occurs when VTS constantly switch the input source.",
+    "p_nodef": "In addition, when no default input source (VTS native tracking devices) is connected, the model will get stuck until the next plugin request is processed successfully.",
+    "p_tored": "To reduce the chance of this problem, you can turn off other plugins, turn off the 'fetch VTS parameter data' option within Vitamins or reduce the processing rate (WIP) to reduce the pressure on the VTS plugin server.",
+    "p_vtscould": "VTS could also have internal mechanisms to deal with this problem. For example, VTS will create and keep several new threads after facing a jitter. Which means the further jitter will be less intense.",
+    "bq_monitor": "You can monitor the above mechanisms in the Task Manager details tab by turning the column of the thread visible.",
+    "st_above": "If the above description differs from what you are experiencing, you can refer to the official VTS documentation on lagging issues.",
+    "a_lag": "lagging issues"
+}

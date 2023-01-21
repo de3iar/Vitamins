@@ -1,4 +1,4 @@
-import { useI18n } from "/src/i18n/context";
+import { useI18n } from "@i18n/context";
 import Switcher from './langSwitcher';
 function Nbar() {
     const i18n = useI18n()

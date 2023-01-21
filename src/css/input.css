@@ -54,3 +54,11 @@ code {
 img {
   user-select: none;
 }
+
+.prose blockquote {
+  margin: 2rem 0 2rem 0;
+}
+
+.animate__delay-05s {
+  animation-delay: 0.5s;
+}

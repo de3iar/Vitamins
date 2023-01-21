@@ -2,6 +2,7 @@
 import { render } from 'solid-js/web';
 import { Router } from "@solidjs/router";
 import '/src/css/index.css';
+import 'animate.css';
 import App from './App';
 import { TransProvider, Trans } from '@mbarzda/solid-i18next';
 

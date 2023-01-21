@@ -1,4 +1,4 @@
-import { useI18n } from "/src/i18n/context";
+import { useI18n } from "@i18n/context";
 
 export default function Hero() {
     const i18n = useI18n()

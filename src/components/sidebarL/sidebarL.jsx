@@ -1,14 +1,14 @@
-import { useI18n } from "/src/i18n/context";
-import { createSignal } from "solid-js";
+import { useI18n } from "@i18n/context";
+
 import Nbar from '/src/components/nav/nav';
 
 import SidebarLi from '/src/components/sidebarL/li/sidebarLi.jsx';
 function SidebarL() {
     const i18n = useI18n()
-    const [current, setCurrent] = createSignal("hero");
-    return <div>
+
+    return <div className="w-80 bg-base-300 " >
         <Nbar />
-        <div id="sidebarl" className="flex w-80 bg-base-300 flex-col overflow-auto">
+        <div id="sidebarl" className="flex flex-col overflow-auto">
             <ul className="menu w-full p-2 rounded-box space-x-2 space-y-2 last:mb-8">
 
 

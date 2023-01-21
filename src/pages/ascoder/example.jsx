@@ -1,11 +1,11 @@
-import { useI18n } from "/src/i18n/context";
+import { useI18n } from "/i18n/context";
 import Headings from '/src/components/content/headings';
 
 export default function GetStarted() {
     const i18n = useI18n()
     const name1 = 1
-    const imgPath = "/src/assets/images/ascoder/"
-    const videoPath = "/src/assets/videos/ascoder/"
+    const imgPath = "/assets/images/ascoder/"
+    const videoPath = "/assets/videos/ascoder/"
     const lp = "ascoder_example:"
     return <article className="prose bg-base-100 m-20 h-fit prose-li:py-4 prose-li:font-bold">
 
@@ -36,6 +36,8 @@ export default function GetStarted() {
         <img src={imgPath + "exam_sods_create.png"} alt="" />
         <b>{i18n.t(lp + 'b_once')}</b>
         <img src={imgPath + "exam_sods_this.png"} alt="" />
+        <p>{i18n.t(lp + 'p_calc')}</p>
+        <img src={imgPath + "exam_sods.png"} alt="" />
         <li>{i18n.t(lp + 'li_freq')}</li>
         <video src={videoPath + "sods_freq_x264.mp4"} controls muted className="w-3/6"></video>
         <li>{i18n.t(lp + 'li_zeta')}</li>
@@ -51,8 +53,7 @@ export default function GetStarted() {
         <p>{i18n.t(lp + 'p_r1')}</p>
         <p>{i18n.t(lp + 'p_r0')}</p>
         <br />
-        <p>{i18n.t(lp + 'p_calc')}</p>
-        <img src={imgPath + "exam_sods.png"} alt="" />
+
 
 
     </article >

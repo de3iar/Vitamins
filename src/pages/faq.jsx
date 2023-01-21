@@ -1,11 +1,11 @@
-import { useI18n } from "/src/i18n/context";
+import { useI18n } from "/i18n/context";
 import Headings from '/src/components/content/headings';
 
 export default function GetStarted() {
     const i18n = useI18n()
     const name1 = 1
-    const imgPath = "/src/assets/images/faq/"
-    const videoPath = "/src/assets/videos/faq/"
+    const imgPath = "/assets/images/faq/"
+    const videoPath = "/assets/videos/faq/"
     const lp = "faq:"
     return <article className="prose bg-base-100 m-20 h-fit">
 
@@ -17,7 +17,7 @@ export default function GetStarted() {
         <li>Vitamins
             <video src={videoPath + "faq_jitter_vita.mp4"} controls muted className="w-3/6"></video>
         </li>
-        <p>{i18n.t(lp + 'p_mech')}</p>
+        <strong>{i18n.t(lp + 'p_mech')}</strong>
         <li>{i18n.t(lp + 'li_conti')}</li>
         <li>{i18n.t(lp + 'li_block')}</li>
         <li>{i18n.t(lp + 'li_render')}</li>

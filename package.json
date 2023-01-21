@@ -5,7 +5,7 @@
   "scripts": {
     "start": "vite",
     "dev": "vite",
-    "build": "vite build",
+    "build": "vite build && node ./tools/copyAssets.js",
     "serve": "vite preview",
     "tailWatch": "npx tailwind -i ./src/css/input.css -o ./src/css/index.css --watch"
   },
@@ -19,6 +19,7 @@
   "dependencies": {
     "@mbarzda/solid-i18next": "^1.1.8",
     "@solidjs/router": "^0.5.0",
+    "animate.css": "^4.1.1",
     "babel-preset-solid": "^1.6.2",
     "daisyui": "^2.41.0",
     "i18next": "^22.0.6",
