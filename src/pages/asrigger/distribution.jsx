@@ -16,7 +16,6 @@ export default function GetStarted() {
         <img src={imgPath + "distru_folder.png"} alt="" />
         <img src={imgPath + "distru_vtsconfig.png"} alt="" />
         <p>{i18n.t(lp + 'p_save')}</p>
-        <p>{i18n.t(lp + 'p_zip')}</p>
         <img src={imgPath + "distru_save.png"} alt="" />
     </article >
 

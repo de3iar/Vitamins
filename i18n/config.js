@@ -19,12 +19,15 @@ const i18n = i18next
             "asvtb_impAndLoad",
             "asvtb_knowledge",
             "asvtb_prefix",
+            "asvtb_use",
             "faq",
             "about",
             "hero",
             "index",
             "start",
-            "sidebarL"
+            "sidebarL",
+            "req",
+            "comm"
         ],
         defaultNS: 'translations',
         fallbackNS: false,

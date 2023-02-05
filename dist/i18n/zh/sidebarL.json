@@ -7,8 +7,8 @@
     },
     "menu_as_actor": {
         "title": "作为VTB/面捕演员",
-        "prefix": "前处理",
-        "impAndLoad": "导入与载入存档",
+        "prefix": "前处理（校准）",
+        "impAndLoad": "导入与载入脚本",
         "knowledge": "有用的知识"
     },
     "as_rigger": {
@@ -17,7 +17,7 @@
         "distru": "分发与交付"
     },
     "as_coder": {
-        "title": "作为Param编写者",
+        "title": "作为参数脚本开发者",
         "intro": "介绍",
         "info": "信息",
         "quickstart": "快速开始",

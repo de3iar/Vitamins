@@ -11,7 +11,7 @@
     "p_note": "Note that the range of VoiceVolume is also affected by addition.",
     "p_origin": "The original range of VoiceVolume in the VTS is [0, 1].",
     "p_morange": "Assuming that the range of mouthOpen is also [0,1], then the actual range of VoiceVolume will change as follows [0,1] + [0,1] = [0,2]. Therefore, you need to change the VoiceVolume range manually when using it in VTS.",
-    "p_ratio": "If you want to adjust the ratio when fusing, you can multiply the calculation part by a factor, as here, I want the fusion ratio to be voice:mouth = 1:3",
+    "p_ratio": "If you want to adjust the ratio when fusing, you can multiply the calculation part by a factor, as here, I want the fusion ratio to be voice:mouthopen = 1:3 , voice:mouthform = 1:1 ",
     "li_vtsparam": "Using the VTS parameter",
     "p_fetch": "With 'Fetch VTS parameter data' enabled, you can accsee the VoiceVolume via vPlugin.vts.defaultParam.VoiceVolume",
     "p_just": "Then just calculate it together with MouthOpen.",

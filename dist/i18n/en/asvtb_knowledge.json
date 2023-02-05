@@ -9,6 +9,6 @@
     "settings": {
         "title": "Settings",
         "p_autoconn": "Vitamins can auto-connect to your tracking device and VTS with last-time config by turning on the settings.",
-        "p_fetch": "Suppose you are using a save with params required the default VTS parameters (e.g. VoiceVolumePlusMouthOpen in the example save). In that case, you need to turn on the fetch VTS parameters data option. Otherwise, the calculation will result in an error because the data is unavailable."
+        "p_fetch": "Suppose you are using a script with params required the default VTS parameters (e.g. VoiceVolumePlusMouthOpen in the example script). In that case, you need to turn on the fetch VTS parameters data option. Otherwise, the calculation will result in an error because the data is unavailable."
     }
 }

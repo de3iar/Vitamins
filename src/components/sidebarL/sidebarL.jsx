@@ -18,14 +18,15 @@ function SidebarL() {
                 <li></li>
                 <SidebarLi href="/intro" text="sidebarL:menu-start.intro" />
                 <SidebarLi href="/download" text="sidebarL:menu-start.download" />
-                <SidebarLi href="/use" text="sidebarL:menu-start.use" />
+                <SidebarLi href="/req" text="sidebarL:menu-start.req" />
                 <li class="menu-title">
                     <span>{i18n.t('sidebarL:menu_as_actor.title')}</span>
                 </li>
                 <li></li>
+                <SidebarLi href="/use" text="sidebarL:menu_as_actor.use" />
                 <SidebarLi href="/asvtb_prefix" text="sidebarL:menu_as_actor.prefix" />
                 <SidebarLi href="/asvtb_impAndLoad" text="sidebarL:menu_as_actor.impAndLoad" />
-                <SidebarLi href="/asvtb_knowledge" text="sidebarL:menu_as_actor.knowledge" />
+                <SidebarLi href="/asvtb_knowledge" text="sidebarL:menu_as_actor.info" />
 
                 <li class="menu-title">
                     <span>{i18n.t('sidebarL:as_rigger.title')}</span>
@@ -49,7 +50,9 @@ function SidebarL() {
                 </li>
                 <li></li>
                 <SidebarLi href="/faq" text="sidebarL:faq" />
+                <SidebarLi href="/comm" text="sidebarL:comm" />
                 <SidebarLi href="/about" text="sidebarL:about" />
+
             </ul>
         </div>
 

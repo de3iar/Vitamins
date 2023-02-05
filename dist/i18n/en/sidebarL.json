@@ -7,7 +7,7 @@
     },
     "menu_as_actor": {
         "title": "As Vtuber/Actor",
-        "prefix": "Prefix",
+        "prefix": "Prefix (Calibration)",
         "impAndLoad": "Importing and loading",
         "knowledge": "Useful knowledge"
     },
@@ -17,7 +17,7 @@
         "distru": "Distribution"
     },
     "as_coder": {
-        "title": "As Param Coder",
+        "title": "As Param script developer",
         "intro": "Introduction",
         "info": "Infomations",
         "quickstart": "Quick Start",

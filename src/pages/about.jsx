@@ -26,8 +26,8 @@ export default function about() {
                     <strong className="text-xl self-center">-菂-  </strong>
 
                     <span className="text-sm text-center  self-center mx-2 ">{i18n.t(lp + 'aka')}  <strong>de3iar</strong>, {i18n.t(lp + 'meCredit')}</span>
-                    <BiliA href="https://space.bilibili.com/607096" />
-                    <TwitterA href="https://space.bilibili.com/607096" />
+                    <BiliA href="https://space.bilibili.com/1483693028" />
+                    <TwitterA href="https://twitter.com/de3iar" />
                 </div>
                 <div >
                     <p>{i18n.t(lp + 'p_me')}</p>

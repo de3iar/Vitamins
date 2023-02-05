@@ -1,15 +1,16 @@
 {
     "menu-start": {
         "title": "Start",
-        "use": "Use",
+        "req": "Requirements",
         "download": "Download and Install",
         "intro": "Introduction"
     },
     "menu_as_actor": {
         "title": "As Vtuber/Actor",
+        "use": "Use",
         "prefix": "Prefix (Calibration)",
-        "impAndLoad": "Importing and loading",
-        "knowledge": "Useful knowledge"
+        "impAndLoad": "Import scripts",
+        "info": "Infomations"
     },
     "as_rigger": {
         "title": "As Rigger",
@@ -26,5 +27,6 @@
     },
     "misc": "Misc",
     "faq": "FAQ",
-    "about": "About"
+    "about": "About",
+    "comm": "Community"
 }

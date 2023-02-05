@@ -15,7 +15,7 @@
     "p_01": "[0, 1] - [0, 1] = [-1, 1], default value 0 - 0 = 0",
     "p_rangebecome": "At this point, the range of the param also becomes [-1, 1] as we need it to be, and the default value is exactly 0.",
     "b_further": "You may have a further thought.",
-    "p_invts": "In VTS, the default input range for BrowLeftY is [0,1], with a default value of 0.5. If you were to distribute the Vitamins save separately, users would easily miss such a small range problem. Therefore, you will want to change the range to be consistent with the VTS.",
+    "p_invts": "In VTS, the default input range for BrowLeftY is [0,1], with a default value of 0.5. If you were to distribute the Vitamins script separately, users would easily miss such a small range problem. Therefore, you will want to change the range to be consistent with the VTS.",
     "P_perform": "You can perform the following operation on the expression we already completed.",
     "b_evenfur": "Taking this even further, ",
     "p_mxbrow": "you want to implement the 'mouth X controls brows', and the model itself doesn't do this implementation via Live2d.",

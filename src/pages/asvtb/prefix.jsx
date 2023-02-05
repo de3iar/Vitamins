@@ -14,14 +14,14 @@ export default function GetStarted() {
         <Headings h="2" id="howto" class="" text={i18n.t(lp + 't_howto')}></Headings>
 
         <Headings h="3" id="blendshapes" class="" text={i18n.t(lp + 't_blendshapes')}></Headings>
-        <p>{i18n.t(lp + 'clicktoquick')}</p>
+        <li>{i18n.t(lp + 'clicktoquick')}</li>
         <img src={imgPath + "prefix_quickCali.png"} alt="" />
 
 
-        <p>{i18n.t(lp + 'openPrefix')}</p>
+        <li>{i18n.t(lp + 'openPrefix')}</li>
         <img src={imgPath + "prefix_brow.png"} alt="" />
         <blockquote>{i18n.t(lp + 'bq_valuetop')}</blockquote>
-        <p>{i18n.t(lp + 'keephead')}</p>
+        <li>{i18n.t(lp + 'keephead')}</li>
         <img src={imgPath + "prefix_browmax.png"} alt="" />
         <p>{i18n.t(lp + 'p_atthispoint')}</p>
         <blockquote>{i18n.t(lp + 'bq_dk')}</blockquote>
@@ -32,9 +32,9 @@ export default function GetStarted() {
         <Headings h="3" id="posrot" class="" text={i18n.t(lp + 't_posrot')}></Headings>
         <p>{i18n.t(lp + 'simToBlend')}</p>
 
-        <p>{i18n.t(lp + 'quickCali')}</p>
+        <li>{i18n.t(lp + 'quickCali')}</li>
         <img src={imgPath + "prefix_quickCali.png"} alt="" />
-        <p>{i18n.t(lp + 'takeHeadrotY')}</p>
+        <li>{i18n.t(lp + 'takeHeadrotY')}</li>
         <img src={imgPath + "prefix_rotmax.png"} alt="" />
         <img src={imgPath + "prefix_rotmin.png"} alt="" />
         <blockquote>{i18n.t(lp + 'bq_lefthand')}</blockquote>

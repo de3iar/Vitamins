@@ -15,12 +15,17 @@ export const routesList = [
     {
         path: "/download",
         component: lazy(() => import("/src/pages/start/download"))
-    },
-    {
-        path: "/use",
-        component: lazy(() => import("/src/pages/start/use"))
     }
     ,
+    {
+        path: "/req",
+        component: lazy(() => import("/src/pages/start/req"))
+    }
+    ,
+    {
+        path: "/use",
+        component: lazy(() => import("/src/pages/asvtb/use"))
+    },
     {
         path: "/asvtb_prefix",
         component: lazy(() => import("/src/pages/asvtb/prefix"))
@@ -70,5 +75,9 @@ export const routesList = [
     {
         path: "/about",
         component: lazy(() => import("/src/pages/about"))
+    },
+    {
+        path: "/comm",
+        component: lazy(() => import("/src/pages/comm"))
     },
 ];

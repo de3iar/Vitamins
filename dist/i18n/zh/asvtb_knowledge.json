@@ -9,6 +9,6 @@
     "settings": {
         "title": "设置选项",
         "p_autoconn": "你可以在设置里打开 捕捉设备和VTS的自动连接，这样Vitamins会在启动时自动尝试以上一次使用的配置进行连接。",
-        "p_fetch": "如果你使用的存档内存在自定义参数 使用VTS默认parameters（比如示例存档内的VoiceVolumePlusMouthOpen）进行计算， 那么你需要打开·fetch VTS parameters data 选项。否则相关计算会因为获取不到数据出现异常。"
+        "p_fetch": "如果你使用的脚本内存在自定义参数 使用VTS默认parameters（比如示例脚本内的VoiceVolumePlusMouthOpen）进行计算， 那么你需要打开 获取VTS参数 选项。否则相关计算会因为获取不到数据出现异常。"
     }
 }
