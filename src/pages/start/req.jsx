@@ -1,9 +1,9 @@
 import { useI18n } from "/i18n/context";
 import Headings from '../..//components/content/headings';
-
+import { getLoactionPath } from '../../js/getLocationPath.js';
 export default function GetStarted() {
     const i18n = useI18n()
-    const imgPath = window.location.pathname + "/assets/images/getting_started/"
+    const imgPath = getLoactionPath() + "/assets/images/getting_started/"
     const lg = "req:"
     return <article className="prose bg-base-100 m-20 h-fit">
         <Headings h="1" id="title" class="content_title pb-8 " text={i18n.t(lg + 'title')} />

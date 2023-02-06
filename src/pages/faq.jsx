@@ -1,11 +1,11 @@
 import { useI18n } from "/i18n/context";
 import Headings from '../components/content/headings';
-
+import { getLoactionPath } from '../js/getLocationPath.js';
 export default function GetStarted() {
     const i18n = useI18n()
     const name1 = 1
-    const imgPath = window.location.pathname + "/assets/images/faq/"
-    const videoPath = window.location.pathname + "/assets/videos/faq/"
+    const imgPath = getLoactionPath() + "/assets/images/faq/"
+    const videoPath = getLoactionPath() + "/assets/videos/faq/"
     const lp = "faq:"
     return <article className="prose bg-base-100 m-20 h-fit">
 

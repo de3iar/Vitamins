@@ -2,14 +2,14 @@ import { useI18n } from "/i18n/context";
 import Headings from '../components/content/headings';
 import MatLi from '../components/about/material.jsx';
 import ThanksLi from '../components/about/thanks.jsx';
-
+import { getLoactionPath } from '../js/getLocationPath.js';
 import BiliA from '../components/about/biliA.jsx';
 import TwitterA from '../components/about/twitterA.jsx';
 export default function about() {
     const i18n = useI18n()
     const name1 = 1
-    const imgPath = window.location.pathname + "/assets/images/about/"
-    const videoPath = window.location.pathname + "/assets/videos/about/"
+    const imgPath = getLoactionPath() + "/assets/images/about/"
+    const videoPath = getLoactionPath() + "/assets/videos/about/"
     const lp = "about:"
     return <article className="prose bg-base-100 m-20 h-fit ">
 
