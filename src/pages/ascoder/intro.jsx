@@ -4,7 +4,7 @@ import Headings from '../../components/content/headings';
 export default function GetStarted() {
     const i18n = useI18n()
     const name1 = 1
-    const imgPath = "./assets/images/ascoder/"
+    const imgPath = window.location.pathname + "/assets/images/ascoder/"
     const lp = "ascoder_intro:"
     return <article className="prose bg-base-100 m-20 h-fit">
 

@@ -8,8 +8,8 @@ import TwitterA from '../components/about/twitterA.jsx';
 export default function about() {
     const i18n = useI18n()
     const name1 = 1
-    const imgPath = "./assets/images/about/"
-    const videoPath = "./assets/videos/about/"
+    const imgPath = window.location.pathname + "/assets/images/about/"
+    const videoPath = window.location.pathname + "/assets/videos/about/"
     const lp = "about:"
     return <article className="prose bg-base-100 m-20 h-fit ">
 

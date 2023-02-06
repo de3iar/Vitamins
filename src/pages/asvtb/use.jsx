@@ -3,7 +3,7 @@ import Headings from '../..//components/content/headings';
 
 export default function GetStarted() {
     const i18n = useI18n()
-    const imgPath = "./assets/images/getting_started/"
+    const imgPath = window.location.pathname + "/assets/images/getting_started/"
     const lg = "asvtb_use:"
     return <article className="prose bg-base-100 m-20 h-fit">
         <Headings h="1" id="title" class="content_title pb-8 " text={i18n.t(lg + 'title')} />

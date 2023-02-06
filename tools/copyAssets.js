@@ -48,3 +48,11 @@ copyDir("./assets/", "./docs/assets");
 copyDir("./i18n/", "./docs/i18n");
 fs.rmSync('./docs/i18n/config.js')
 fs.rmSync('./docs/i18n/context.js')
+
+let a = fs.readFileSync('./docs/index.html')
+let b = a.toString()
+b = b.replace('src="/assets', 'src="./assets')
+b = b.replace('href="/static', 'href="./static')
+
+fs.writeFileSync('./docs/index.html', b)
+
