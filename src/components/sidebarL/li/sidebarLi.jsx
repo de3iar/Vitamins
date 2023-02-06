@@ -11,7 +11,7 @@ export default function SidebarLi(props) {
         <li>
             <A
                 className={"  active:text-primary-content " + (match() ? 'active' : 'hover:text-primary')}
-                href={props.href + "?lang=" + i18n.language}  >
+                href={window.location.pathname + props.href + "?lang=" + i18n.language}  >
 
                 <b>{i18n.t(props.text)}</b>
             </A>
