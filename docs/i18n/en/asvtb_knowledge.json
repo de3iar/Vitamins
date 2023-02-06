@@ -1,0 +1,14 @@
+{
+    "title": "Informations",
+    "system_tray": {
+        "title": "System Tray",
+        "p_mainly": "The vitamins' window is mainly used for prefix and editing params. It doesn't help with streaming and will take up more system resources. Therefore, I recommend hiding vitamins in the system tray for lower occupancy.",
+        "p_shortcut": "You can quickly perform common operations in the system tray, such as connecting to VTS and connect tracking devices.",
+        "bq_attemp": "When you attempt to connect to a tracking device, Vitamins will use the config from the last-time successful connection."
+    },
+    "settings": {
+        "title": "Settings",
+        "p_autoconn": "Vitamins can auto-connect to your tracking device and VTS with last-time config by turning on the settings.",
+        "p_fetch": "Suppose you are using a script with params required the default VTS parameters (e.g. VoiceVolumePlusMouthOpen in the example script). In that case, you need to turn on the fetch VTS parameters data option. Otherwise, the calculation will result in an error because the data is unavailable."
+    }
+}

@@ -1,0 +1,37 @@
+{
+    "intro": {
+        "title": "快速介绍",
+        "t_why": "为什么使用Vitamins",
+        "t_overview": "概述",
+        "vitaIs": "Vitamins是捕捉设备和Live2d渲染软件之间的中间件。它提供标准化的校准，自定义的参数创建以及易理解的表情动画演示。",
+        "withVitamins": "使用Vitamins，您可以更准确、更自由、更有潜力的在Live2d领域中使用面捕数据。",
+        "t_advanofVita": "Vitamins的优势：",
+        "t_stand": "更高精度且标准化的校准",
+        "bq_descBlendshape": "blendshape 在这里可以理解为表示表情程度的数值，它的范围是【0，1】.",
+        "t_advan": "Vitamins的校准有以下优点：",
+        "li_lowhigh": "低难度，高效率",
+        "p_lowhigh": "Vitamins的校准专注在个人的脸。不需要同时校准模型，将校准操作与目标变的相当简单且直观。",
+        "fastway": "在大部分输入参数的校准上，用户只需要调整一个数值。同时Vitamins提供了3种输入方式。在最快的方式下，用户只需要：做表情，点击。就可以完成一个参数的校准。",
+        "li_stand": "标准化，高通用",
+        "usearkit": "使用arkit 标准，将校准对象精细到最原始的表情数值。每个人校准后都会有一致的数值范围与默认值。",
+        "compares": "相比于其他软件常用的：先包装为参数，再执行校准的模式，这样的做法可以避免扩大个体差异的影响。",
+        "sharethesame": "建模师、脚本开发者、演员，同享一个数值范围，这会使得在开发、交接、使用中不确定性大幅的减小。",
+        "li_reuse": "高复用性",
+        "notneedRecali": "演员无需对每个模型进行单独的校准。",
+        "afterfirst": "对于同一个人和设备，只要环境不发生较大变化，只需完成一次校准即可使用任意以Vitamins使用的数值标准建立的Live2d模型、挂件，Vitamins脚本等。",
+        "powerfulEditor": "强大的参数脚本编辑器",
+        "vitaminsEditor": "Vitamins的参数编辑器进一步的允许用户在表达式模式和编程模式间切换。",
+        "expOrCode": "你可以使用表达式形式的编辑模式完成单行表达的数学计算。或者使用编程模式，对数据进行更加强大且多样化的处理",
+        "link_drink_straw": "用吸管喝水",
+        "t_demo": "易学习的表情动画模拟",
+        "showDemo": "右键点击Arkit Blendshapes的数值将会播放对应表情的动画实时演示。",
+        "clientsCanLearn": "任何角色都可以利用动画演示快速学习表情动作。"
+    },
+    "t_download": "下载与安装",
+    "instal": {
+        "t_down": "下载",
+        "p_down": "目前，你可以从github的release页面下载Vtiamins。",
+        "title": "安装",
+        "p2_run": "将zip压缩包解压至任意位置，运行Vitamins.exe即可启动本程序。"
+    }
+}

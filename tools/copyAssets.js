@@ -43,8 +43,8 @@ function copyDir(src, dist) {
     _copy(src, dist);
 }
 
-copyDir("./assets/", "./dist/assets");
+copyDir("./assets/", "./docs/assets");
 
-copyDir("./i18n/", "./dist/i18n");
-fs.rmSync('./dist/i18n/config.js')
-fs.rmSync('./dist/i18n/context.js')
+copyDir("./i18n/", "./docs/i18n");
+fs.rmSync('./docs/i18n/config.js')
+fs.rmSync('./docs/i18n/context.js')

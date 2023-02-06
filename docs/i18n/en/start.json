@@ -1,0 +1,37 @@
+{
+    "intro": {
+        "title": "Quick Intro",
+        "t_why": "Why Vitamins",
+        "t_overview": "Overview",
+        "vitaIs": "Vitamins is the middleware between the capture device and the Live2d rendering software. It provides users with standardised calibration, custom parameter creation and easy to understand facial expression demonstrations.",
+        "withVitamins": "With Vitamins you can achieve greater accuracy, freedom and potential for applying face capture in Live2d.",
+        "t_advanofVita": "Advantages of Vitamins.",
+        "t_stand": "More accurate and standardised calibration",
+        "bq_descBlendshape": "blendshape is understood here as a numerical value indicating the degree of facial expression, which ranges from [0, 1].",
+        "t_advan": "The calibration of Vitamins has the following advantages.",
+        "li_lowhigh": "Low difficulty, high efficiency.",
+        "p_lowhigh": "Calibration of Vitamins only focuses on individual faces. There is no need to calibrate the model at the same time, making the calibration operation and target quite simple and intuitive.",
+        "fastway": "For the calibration of most input parameters, the user only needs to adjust one value. Vitamins also offer 3 methods. In the fastest way, the user only needs to: make a facial expression and click. And you are done with a parameter.",
+        "li_stand": "Standardised, Highly generic",
+        "usearkit": "The calibration operating primitive expression values uses the Arkit standard. All people will have the same range of value and same default value after calibration.",
+        "compares": "Compare to current softwares, This method prevents individual differences from being irreversibly amplified.",
+        "sharethesame": "rigger, script developers, and actors, share the same range of values, which results in a significant reduction of uncertainty in development, handover and use.",
+        "li_reuse": "High reusability.",
+        "notneedRecali": "The users do not need to re-calibrate for each model.",
+        "afterfirst": "After the first calibration, any Live2d model, items, Vitamins scripts, etc. built to Vitamins standards can be used directly. If no big changes to devices and the environment.",
+        "powerfulEditor": "A powerful parameter script editor",
+        "vitaminsEditor": "Vitamins' parameter editor goes a step further by allowing the user to switch between expression mode and programming mode.",
+        "expOrCode": "You can use the expression mode to perform mathematical calculations on a single line of expression. Or use the programming mode for more powerful and varied processing of data.",
+        "link_drink_straw": "drinkWithStraw",
+        "t_demo": "Easy-to-learn facial expressions demonstration",
+        "showDemo": "Right-clicking on the value of Arkit Blendshapes will play an animated demonstration of the expression in real time.",
+        "clientsCanLearn": "Any character can quickly learn and be familiar with expressions using animated demonstrations."
+    },
+    "t_download": "Download And Install",
+    "instal": {
+        "t_down": "Download",
+        "p_down": "You can download Vitamins from the release page on GitHub.",
+        "title": "Installation",
+        "p2_run": "Extract the zip archive to any location and run Vitamins.exe to start the program."
+    }
+}
