@@ -3,82 +3,82 @@ import { lazy } from "solid-js";
 import { render } from "solid-js/web";
 import { Router, useRoutes, A } from "@solidjs/router";
 import { getLoactionPath } from "../js/getLocationPath";
-
+let a = "/Vitamins/"
 export const routesList = [
     {
-        path: getLoactionPath(),
+        path: a,
         component: lazy(() => import("/src/pages/hero"))
     },
     {
-        path: getLoactionPath() + "intro",
+        path: a + "intro",
         component: lazy(() => import("/src/pages/start/intro"))
     },
     {
-        path: getLoactionPath() + "download",
+        path: a + "download",
         component: lazy(() => import("/src/pages/start/download"))
     }
     ,
     {
-        path: getLoactionPath() + "req",
+        path: a + "req",
         component: lazy(() => import("/src/pages/start/req"))
     }
     ,
     {
-        path: getLoactionPath() + "use",
+        path: a + "use",
         component: lazy(() => import("/src/pages/asvtb/use"))
     },
     {
-        path: getLoactionPath() + "asvtb_prefix",
+        path: a + "asvtb_prefix",
         component: lazy(() => import("/src/pages/asvtb/prefix"))
     }
     ,
     {
-        path: getLoactionPath() + "asvtb_impAndLoad",
+        path: a + "asvtb_impAndLoad",
         component: lazy(() => import("/src/pages/asvtb/impAndLoad"))
     }
     ,
     {
-        path: getLoactionPath() + "asvtb_knowledge",
+        path: a + "asvtb_knowledge",
         component: lazy(() => import("/src/pages/asvtb/knowledge"))
     },
     {
-        path: getLoactionPath() + "rigger_withVitamins",
+        path: a + "rigger_withVitamins",
         component: lazy(() => import("/src/pages/asrigger/withVitamins"))
     },
     {
-        path: getLoactionPath() + "rigger_distribution",
+        path: a + "rigger_distribution",
         component: lazy(() => import("/src/pages/asrigger/distribution"))
     },
     {
-        path: getLoactionPath() + "coder_intro",
+        path: a + "coder_intro",
         component: lazy(() => import("/src/pages/ascoder/intro"))
     },
     {
-        path: getLoactionPath() + "coder_Infomations",
+        path: a + "coder_Infomations",
         component: lazy(() => import("/src/pages/ascoder/info"))
     },
     {
-        path: getLoactionPath() + "coder_quickstart",
+        path: a + "coder_quickstart",
         component: lazy(() => import("/src/pages/ascoder/quickStart"))
     },
     {
-        path: getLoactionPath() + "coder_advanced",
+        path: a + "coder_advanced",
         component: lazy(() => import("/src/pages/ascoder/advanced"))
     },
     {
-        path: getLoactionPath() + "coder_example",
+        path: a + "coder_example",
         component: lazy(() => import("/src/pages/ascoder/example"))
     },
     {
-        path: getLoactionPath() + "faq",
+        path: a + "faq",
         component: lazy(() => import("/src/pages/faq"))
     },
     {
-        path: getLoactionPath() + "about",
+        path: a + "about",
         component: lazy(() => import("/src/pages/about"))
     },
     {
-        path: getLoactionPath() + "comm",
+        path: a + "comm",
         component: lazy(() => import("/src/pages/comm"))
     },
 ];
