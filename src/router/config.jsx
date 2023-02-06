@@ -3,7 +3,7 @@ import { lazy } from "solid-js";
 import { render } from "solid-js/web";
 import { Router, useRoutes, A } from "@solidjs/router";
 import { getLoactionPath } from "../js/getLocationPath";
-let a = "/Vitamins/"
+let a = getLoactionPath()
 export const routesList = [
     {
         path: a,

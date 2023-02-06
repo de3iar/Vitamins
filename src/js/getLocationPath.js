@@ -1,4 +1,6 @@
 export function getLoactionPath() {
     let a = window.location.pathname
-    return a.substring(0, a.indexOf('/', 2) + 1)
+    let b = a.substring(0, a.indexOf('/', 2) + 1)
+    console.log(b);
+    return b
 }
