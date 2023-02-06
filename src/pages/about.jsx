@@ -1,15 +1,15 @@
 import { useI18n } from "/i18n/context";
-import Headings from '/src/components/content/headings';
-import MatLi from '/src/components/about/material.jsx';
-import ThanksLi from '/src/components/about/thanks.jsx';
+import Headings from '../components/content/headings';
+import MatLi from '../components/about/material.jsx';
+import ThanksLi from '../components/about/thanks.jsx';
 
-import BiliA from '/src/components/about/biliA.jsx';
-import TwitterA from '/src/components/about/twitterA.jsx';
+import BiliA from '../components/about/biliA.jsx';
+import TwitterA from '../components/about/twitterA.jsx';
 export default function about() {
     const i18n = useI18n()
     const name1 = 1
-    const imgPath = "/assets/images/about/"
-    const videoPath = "/assets/videos/about/"
+    const imgPath = "./assets/images/about/"
+    const videoPath = "./assets/videos/about/"
     const lp = "about:"
     return <article className="prose bg-base-100 m-20 h-fit ">
 

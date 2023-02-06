@@ -1,11 +1,11 @@
 import { useI18n } from "/i18n/context";
-import Headings from '/src/components/content/headings';
+import Headings from '../..//components/content/headings';
 
 export default function GetStarted() {
     const i18n = useI18n()
     const name1 = 1
-    const imgPath = "/assets/images/ascoder/"
-    const videoPath = "/assets/videos/ascoder/"
+    const imgPath = "./assets/images/ascoder/"
+    const videoPath = "./assets/videos/ascoder/"
     const lp = "ascoder_advanced:"
     return <article className="prose bg-base-100 m-20 h-fit">
 

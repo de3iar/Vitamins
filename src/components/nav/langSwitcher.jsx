@@ -1,6 +1,6 @@
 import { For, createSelector } from "solid-js";
 import { useI18n } from "@i18n/context";
-import langs from '/i18n/en/langs.json';
+import langs from '../../../i18n/en/langs.json';
 function getLangList() {
     let list = []
     for (const key in langs) {

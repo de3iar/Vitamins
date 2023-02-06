@@ -1,5 +1,5 @@
 import { useI18n } from "/i18n/context";
-import Headings from '/src/components/content/headings';
+import Headings from '../components/content/headings';
 
 export default function GetStarted() {
     const i18n = useI18n()

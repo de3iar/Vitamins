@@ -1,8 +1,8 @@
 import { useI18n } from "@i18n/context";
 
-import Nbar from '/src/components/nav/nav';
+import Nbar from '../nav/nav';
 
-import SidebarLi from '/src/components/sidebarL/li/sidebarLi.jsx';
+import SidebarLi from './li/sidebarLi.jsx';
 function SidebarL() {
     const i18n = useI18n()
 
