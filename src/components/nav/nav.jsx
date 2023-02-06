@@ -1,11 +1,12 @@
 import { useI18n } from "@i18n/context";
+import { getLoactionPath } from "../../js/getLocationPath.js";
 import Switcher from './langSwitcher';
 function Nbar() {
     const i18n = useI18n()
 
     return <div className=" w-full bg-base-300  shadow-sm ">
         <div className="h-20 w-full flex justify-center items-center">
-            <a href="/" className=" text text-3xl font-bold self-center btn btn-ghost normal-case hover:bg-transparent hover:text-primary select-none mt-4">Vitamins</a>
+            <a href={getLoactionPath()} className=" text text-3xl font-bold self-center btn btn-ghost normal-case hover:bg-transparent hover:text-primary select-none mt-4">Vitamins</a>
         </div>
 
         <div className=" flex h-10 shadow-sm  items-center  mx-4 justify-center">
