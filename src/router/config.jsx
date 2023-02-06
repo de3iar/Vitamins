@@ -5,79 +5,79 @@ import { Router, useRoutes, A } from "@solidjs/router";
 
 export const routesList = [
     {
-        path: "/",
+        path: window.location.pathname,
         component: lazy(() => import("/src/pages/hero"))
     },
     {
-        path: "/intro",
+        path: window.location.pathname + "intro",
         component: lazy(() => import("/src/pages/start/intro"))
     },
     {
-        path: "/download",
+        path: window.location.pathname + "download",
         component: lazy(() => import("/src/pages/start/download"))
     }
     ,
     {
-        path: "/req",
+        path: window.location.pathname + "req",
         component: lazy(() => import("/src/pages/start/req"))
     }
     ,
     {
-        path: "/use",
+        path: window.location.pathname + "use",
         component: lazy(() => import("/src/pages/asvtb/use"))
     },
     {
-        path: "/asvtb_prefix",
+        path: window.location.pathname + "asvtb_prefix",
         component: lazy(() => import("/src/pages/asvtb/prefix"))
     }
     ,
     {
-        path: "/asvtb_impAndLoad",
+        path: window.location.pathname + "asvtb_impAndLoad",
         component: lazy(() => import("/src/pages/asvtb/impAndLoad"))
     }
     ,
     {
-        path: "/asvtb_knowledge",
+        path: window.location.pathname + "asvtb_knowledge",
         component: lazy(() => import("/src/pages/asvtb/knowledge"))
     },
     {
-        path: "/rigger_withVitamins",
+        path: window.location.pathname + "rigger_withVitamins",
         component: lazy(() => import("/src/pages/asrigger/withVitamins"))
     },
     {
-        path: "/rigger_distribution",
+        path: window.location.pathname + "rigger_distribution",
         component: lazy(() => import("/src/pages/asrigger/distribution"))
     },
     {
-        path: "/coder_intro",
+        path: window.location.pathname + "coder_intro",
         component: lazy(() => import("/src/pages/ascoder/intro"))
     },
     {
-        path: "/coder_Infomations",
+        path: window.location.pathname + "coder_Infomations",
         component: lazy(() => import("/src/pages/ascoder/info"))
     },
     {
-        path: "/coder_quickstart",
+        path: window.location.pathname + "coder_quickstart",
         component: lazy(() => import("/src/pages/ascoder/quickStart"))
     },
     {
-        path: "/coder_advanced",
+        path: window.location.pathname + "coder_advanced",
         component: lazy(() => import("/src/pages/ascoder/advanced"))
     },
     {
-        path: "/coder_example",
+        path: window.location.pathname + "coder_example",
         component: lazy(() => import("/src/pages/ascoder/example"))
     },
     {
-        path: "/faq",
+        path: window.location.pathname + "faq",
         component: lazy(() => import("/src/pages/faq"))
     },
     {
-        path: "/about",
+        path: window.location.pathname + "about",
         component: lazy(() => import("/src/pages/about"))
     },
     {
-        path: "/comm",
+        path: window.location.pathname + "comm",
         component: lazy(() => import("/src/pages/comm"))
     },
 ];
