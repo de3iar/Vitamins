@@ -56,3 +56,4 @@ b = b.replace('href="/static', 'href="./static')
 
 fs.writeFileSync('./docs/index.html', b)
 
+fs.copyFileSync('./docs/index.html', './docs/404.html')
