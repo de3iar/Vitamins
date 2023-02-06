@@ -16,7 +16,7 @@ export default function GetStarted() {
         <p>{i18n.t(lp + 'p_arkit')} <a href="https://developer.apple.com/documentation/arkit/arfaceanchor/blendshapelocation">Arkit</a></p>
         <p>{i18n.t(lp + 'p_observe')} </p>
 
-        <img className=" blur-lg hover:blur-none transition-all" src={"/assets/images/asvtb/prefix_exam_slider.png"} alt="" />
+        <img className=" blur-lg hover:blur-none transition-all" src={imgPath + "prefix_exam_slider.png"} alt="" />
 
         <p>{i18n.t(lp + 'generally')} </p>
         <p>{i18n.t(lp + 'p_whenRig')} </p>
