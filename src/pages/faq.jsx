@@ -20,11 +20,17 @@ export default function GetStarted() {
 
             <ul><span className="text-lg font-bold text-accent">{i18n.t(lp + 'ul_phoneNotConnected')}:</span>
                 <li>{i18n.t(lp + 'li_connToSameRouter')}</li>
+
+                <p>{i18n.t(lp + 'p_traDirectConn')}</p>
                 <li>{i18n.t(lp + 'li_showIp')}</li>
 
                 <img src={imgPath + "faq_compareIp.png"} className="max-w-2xl" alt="" />
                 <p>{i18n.t(lp + 'p_compareIP')}</p>
                 <p>{i18n.t(lp + 'p_traDirectConn')}</p>
+
+                <li className=" font-bold">{i18n.t(lp + 'li_settingNotSame')}:</li>
+                <img src={imgPath + "faq_iosIP.PNG"} className=" max-w-sm" alt="" />
+                <p>{i18n.t(lp + 'p_useSetting')}</p>
             </ul>
         </div>
 

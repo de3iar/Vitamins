@@ -3487,6 +3487,10 @@ html {
   max-height: 100vh;
 }
 
+.max-h-96 {
+  max-height: 24rem;
+}
+
 .w-6 {
   width: 1.5rem;
 }
@@ -3533,6 +3537,14 @@ html {
 
 .max-w-2xl {
   max-width: 42rem;
+}
+
+.max-w-md {
+  max-width: 28rem;
+}
+
+.max-w-sm {
+  max-width: 24rem;
 }
 
 .-translate-x-2 {

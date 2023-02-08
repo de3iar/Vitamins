@@ -10,6 +10,8 @@
     "li_showIp": "点击手机上的 ‘显示IP’，与电脑的 网络和Internet 中显示的IPv4地址比较。",
     "p_compareIP": "如果前三位不一致，那么说明俩台设备处于不同网段或连接到了不同设备",
     "p_traDirectConn": "可以尝试用：热点、USB共享网络 建立手机-电脑的直接连接。",
+    "li_settingNotSame": "如果 设置-wifi里 显示的IP地址与 VTS应用内 “显示IP” 不一致",
+    "p_useSetting": "可以尝试使用 设置内的IP地址.",
     "t_vtslag": "VTS卡顿，模型抽搐",
     "p_mech": "Vitamins设计了专门的机制不会直接造成这种问题，但是由其他VTS插件或VTS本身造成的抖动仍然会影响到Vitamins。通常，视频中的抖动现象可能是由这一系列事件引起的：",
     "li_conti": "插件向VTS不断的发送请求",

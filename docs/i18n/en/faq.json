@@ -10,6 +10,8 @@
     "li_showIp": "compare IPv4 address in 'Show IP' and PC Network Settings.",
     "p_compareIP": "If the first three do not match, The device is on a different network segment from the pc OR not under same router",
     "p_traDirectConn": "You may try hotspot, USB Network sharing , to build a direct connection between device and pc",
+    "li_settingNotSame": "If Ip address in Setting - Wi-Fi and in 'Show IP' are not the same.",
+    "p_useSetting": "Try use address in Setting.",
     "t_vtslag": "VTS laggy, jitter",
     "p_mech": "Vitamins has an internal mechanism to avoid this problem, but jitter caused by other plugins or VTS itself can still affect Vitamins. Jitter in the video above may be caused by this sequence of events:",
     "li_conti": "Requests sent continuously by the plugin to the VTS.",
