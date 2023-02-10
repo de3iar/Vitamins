@@ -5,7 +5,7 @@
         "p1_follow_types": "Vitamins currently support the following types of tracking inputs.",
         "bq1_onios": "Face tracking on IOS devices relies on the TrueDepth camera to work. This hardware is installed on all iPhone devices from the iPhone X onwards, as well as on the third-gen iPad pro and later Ipad devices.",
         "p2_ios_tech": "The technology of the TrueDepth camera has been upgraded several times, so you may find that the tracking performance is better on higher-generation devices.",
-        "bq2_rtx": " Requires RTX 2060 or later RTX graphics cards, available on Nvidia graphics cards only. Requires the",
+        "bq2_rtx": " Requires RTX 2060 or later RTX graphics cards, available on Nvidia graphics cards only. Requires VTS DLC: 'NVIDIA Broadcast Tracker' Installed.",
         "bq_androidIssue": "Vtube Studio on Android does not support full Arkit blendshapes."
     },
     "software": {

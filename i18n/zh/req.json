@@ -5,7 +5,7 @@
         "p1_follow_types": "Vitamins 目前支持以下种类的捕捉输入。",
         "bq1_onios": "IOS设备的面捕依赖于深感摄像头工作。在Iphone X及之后的所有Iphone设备都安装了此硬件，第三代 ipad pro及之后的Ipad设备也一样具备此功能。",
         "p2_ios_tech": "深感摄像头的技术是经历过多次升级的，所以你或许会发现，在更高代数的设备上，追踪效果会更好。",
-        "bq2_rtx": "需要2060及之后的RTX显卡，仅在Nvidia显卡上可用。需要安装",
+        "bq2_rtx": "需要2060及之后的RTX显卡，仅在Nvidia显卡上可用。需要安装 VTS的'NVIDIA Broadcast Tracker' DLC.",
         "bq_androidIssue": "安卓端的VTS并不支持全部的Arkit blendshapes"
     },
     "software": {

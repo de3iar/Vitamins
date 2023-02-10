@@ -44,10 +44,10 @@ export default function GetStarted() {
                 </ul>
             </li>
             <blockquote>
-                {i18n.t(lg + 'hardware.bq2_rtx')}<a target={"_blank"} href="https://www.nvidia.com/en-us/geforce/broadcasting/broadcast-sdk/resources/"> Nvidia Broadcast AR SDK</a>
+                {i18n.t(lg + 'hardware.bq2_rtx')}<a target={"_blank"} href="steam://openurl/https://store.steampowered.com/app/2178540/VTube_Studio__NVIDIA_Broadcast_Tracker/?curator_clanid=39552646"> Steam</a>
 
             </blockquote>
-            <img src={imgPath + "req_nvsdk.png"} alt="" />
+
         </ul>
 
 
