@@ -1,13 +1,14 @@
 import { useI18n } from "/i18n/context";
 import Headings from '../../components/content/headings';
 import { getLoactionPath } from '../../js/getLocationPath.js';
+import { WikiPage } from "../../components/content/page";
 export default function GetStarted() {
     const i18n = useI18n()
     const name1 = 1
     const imgPath = getLoactionPath() + "/assets/images/asrigger/"
     const videoPath = getLoactionPath() + "/assets/videos/asrigger/"
     const lp = "asrigger_withVitamins:"
-    return <article className="prose bg-base-100 m-20 h-fit">
+    return <WikiPage>
 
         <Headings h="1" id="withVitamins" class="" text={i18n.t(lp + 'title')}></Headings>
         <strong>{i18n.t(lp + 's_this')} </strong>
@@ -37,6 +38,6 @@ export default function GetStarted() {
 
         <strong>{i18n.t(lp + 's_dontwant')} </strong>
 
-    </article >
+    </WikiPage>
 
 }

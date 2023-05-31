@@ -1,11 +1,12 @@
 import { useI18n } from "/i18n/context";
 import Headings from '../../components/content/headings';
 import { getLoactionPath } from '../../js/getLocationPath.js';
+import { WikiPage } from "../../components/content/page";
 export default function GetStarted() {
     const i18n = useI18n()
     const lp = "start"
     const imgPath = getLoactionPath() + "/assets/images/getting_started/"
-    return <article className="prose bg-base-100 m-20 h-fit">
+    return <WikiPage>
 
         <Headings h="1" id="intro" class="" text={i18n.t(lp + ':intro.title')}></Headings>
         <img class="scale-75" src={imgPath + "intro1.png"} alt="" />
@@ -62,6 +63,6 @@ export default function GetStarted() {
         <img src={imgPath + "facialDemo.png"} alt="" />
         <p> {i18n.t(lp + ':intro.showDemo')}</p>
         <p> {i18n.t(lp + ':intro.clientsCanLearn')}</p>
-    </article >
+    </WikiPage >
 
 }

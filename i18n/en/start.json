@@ -30,8 +30,6 @@
     "t_download": "Download And Install",
     "instal": {
         "t_down": "Download",
-        "p_down": "You can download Vitamins from the release page on GitHub.",
-        "title": "Installation",
-        "p2_run": "Extract the zip archive to any location and run Vitamins.exe to start the program."
+        "p_down": "You can download Vitamins on steam."
     }
 }

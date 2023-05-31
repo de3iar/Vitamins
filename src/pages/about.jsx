@@ -5,13 +5,14 @@ import ThanksLi from '../components/about/thanks.jsx';
 import { getLoactionPath } from '../js/getLocationPath.js';
 import BiliA from '../components/about/biliA.jsx';
 import TwitterA from '../components/about/twitterA.jsx';
+import { WikiPage } from "../components/content/page";
 export default function about() {
     const i18n = useI18n()
     const name1 = 1
     const imgPath = getLoactionPath() + "/assets/images/about/"
     const videoPath = getLoactionPath() + "/assets/videos/about/"
     const lp = "about:"
-    return <article className="prose bg-base-100 m-20 h-fit ">
+    return <WikiPage>
 
         <Headings h="1" id="" class="" text={i18n.t(lp + 'title')}></Headings>
 
@@ -61,6 +62,6 @@ export default function about() {
                 aHref="https://sketchfab.com/jimmygunawan" />
 
         </div>
-    </article >
+    </WikiPage >
 
 }

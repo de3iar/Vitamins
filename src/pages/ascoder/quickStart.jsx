@@ -1,13 +1,14 @@
 import { useI18n } from "/i18n/context";
 import Headings from '../../components/content/headings';
 import { getLoactionPath } from '../../js/getLocationPath.js';
+import { WikiPage } from "../../components/content/page";
 export default function GetStarted() {
     const i18n = useI18n()
     const name1 = 1
     const imgPath = getLoactionPath() + "/assets/images/ascoder/"
     const videoPath = getLoactionPath() + "/assets/videos/ascoder/"
     const lp = "ascoder_quickstart:"
-    return <article className="prose bg-base-100 m-20 h-fit">
+    return <WikiPage>
 
         <Headings h="1" id="" class="" text={i18n.t(lp + 'title')}></Headings>
 
@@ -35,7 +36,7 @@ export default function GetStarted() {
         <p>{i18n.t(lp + 'P_perform')}</p>
         <img src={imgPath + "start_browExam2.png"} alt="" />
         <b>{i18n.t(lp + 'b_evenfur')}</b>
-        <video src={videoPath + "start_browMouthx.mp4"} loop autoPlay muted className="w-3/6"></video>
+        <video src={videoPath + "start_browMouthx_x264.mp4"} loop autoPlay muted className="w-3/6" ></video>
         <p>{i18n.t(lp + 'p_mxbrow')}</p>
         <p>{i18n.t(lp + 'p_mx')}</p>
         <img src={imgPath + "start_browExam3.png"} alt="" />
@@ -57,5 +58,5 @@ export default function GetStarted() {
         <li><a href="https: //developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Return_values">{i18n.t(lp + 'li_return')} </a></li>
 
 
-    </article >
+    </WikiPage >
 } 

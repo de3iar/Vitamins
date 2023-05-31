@@ -1,13 +1,14 @@
 import { useI18n } from "/i18n/context";
 import Headings from '../components/content/headings';
 import { getLoactionPath } from '../js/getLocationPath.js';
+import { WikiPage } from "../components/content/page";
 export default function GetStarted() {
     const i18n = useI18n()
     const name1 = 1
     const imgPath = getLoactionPath() + "/assets/images/faq/"
     const videoPath = getLoactionPath() + "/assets/videos/faq/"
     const lp = "faq:"
-    return <article className="prose bg-base-100 m-20 h-fit">
+    return <WikiPage>
 
         <Headings h="1" id="" class="" text={i18n.t(lp + 'title')}></Headings>
         <Headings h="2" id="wifiConn" class="" text={i18n.t(lp + 't_wifiConn')}></Headings>
@@ -41,10 +42,10 @@ export default function GetStarted() {
 
         <Headings h="2" id="vtslag" class="" text={i18n.t(lp + 't_vtslag')}></Headings>
         <li>VBridger v1.07(30/11/2022)
-            <video src={videoPath + "faq_jitter_vb.mp4"} controls muted className="w-3/6"></video>
+            <video src={videoPath + "faq_jitter_vb_x264.mp4"} controls muted className="w-3/6"></video>
         </li>
         <li>Vitamins
-            <video src={videoPath + "faq_jitter_vita.mp4"} controls muted className="w-3/6"></video>
+            <video src={videoPath + "faq_jitter_vita_x264.mp4"} controls muted className="w-3/6"></video>
         </li>
         <strong>{i18n.t(lp + 'p_mech')}</strong>
         <li>{i18n.t(lp + 'li_conti')}</li>
@@ -63,6 +64,6 @@ export default function GetStarted() {
         <strong>{i18n.t(lp + 'st_above')}  <a href="http://github.com/DenchiSoft/VTubeStudio/wiki/Lag-Troubleshooting" target="_blank" rel="">{i18n.t(lp + 'a_lag')}</a></strong>
 
 
-    </article >
+    </WikiPage>
 
 }

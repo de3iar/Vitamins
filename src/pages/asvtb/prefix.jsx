@@ -1,12 +1,13 @@
 import { useI18n } from "/i18n/context";
 import Headings from '../../components/content/headings';
 import { getLoactionPath } from '../../js/getLocationPath.js';
+import { WikiPage } from "../../components/content/page";
 export default function GetStarted() {
     const i18n = useI18n()
     const name1 = 1
     const imgPath = getLoactionPath() + "/assets/images/asvtb/"
     const lp = "asvtb_prefix:"
-    return <article className="prose bg-base-100 m-20 h-fit">
+    return <WikiPage>
 
         <Headings h="1" id="prefix" class="" text={i18n.t('asvtb_prefix:title')}></Headings>
         <p>{i18n.t(lp + 'p_principle')}</p>
@@ -49,6 +50,6 @@ export default function GetStarted() {
             <li>{i18n.t(lp + 'li_campos')}</li>
             <li>{i18n.t(lp + 'li_growup')}</li>
         </ul>
-    </article >
+    </WikiPage >
 
 }

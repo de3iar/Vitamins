@@ -1,5 +1,5 @@
 {
-    "title": "Importing And Loading",
-    "p_load": "Click on the Manage button in the top right corner, and you will see several built-in scripts in the script section, which should be sufficient for basic use.",
-    "p_imp": "If you need to load a file from a third party, click on the folder icon, and Vitamins will open the script directory. Then, drop the .vps file in, and it will be ready to load inside the load drop-down selection."
+  "title": "Importing And Loading",
+  "p_load": "Click on the Scripts Manager button on the right of window, and you will see several built-in scripts in the script section, which should be sufficient for basic use.",
+  "p_imp": "If you need to load a script from a third party, click on the folder icon, and Vitamins will open the script directory. Then, drop the .vps file in, and you can see it appears in script manager."
 }

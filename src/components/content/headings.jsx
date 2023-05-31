@@ -1,7 +1,16 @@
 import { useI18n } from "@i18n/context";
+import { onMount, useContext } from "solid-js";
+import { floatNavContext } from "../floatNav/floatNavContext";
 
 function Headings(props) {
     const i18n = useI18n()
+    const { floatNavStore, setFloatNavStore } = useContext(floatNavContext)
+    let thisRef
+    onMount(() => {
+        if (props.h == 2) {
+            setFloatNavStore("headings", [...floatNavStore.headings, { heading: props.text, ref: thisRef }])
+        }
+    })
 
     return (<Switch fallback={<div>tt</div>}>
         <Match when={props.h == 1}>
@@ -12,14 +21,12 @@ function Headings(props) {
             </h1>
         </Match>
         <Match when={props.h == 2}>
-            <h2 id={props.id} className={props.class + " text-secondary"}>
-                <Inner id={props.id} />
+            <h2 id={props.id} ref={thisRef} className={props.class + " text-secondary"}>
                 {props.text}
             </h2>
         </Match>
         <Match when={props.h == 3}>
             <h3 id={props.id} className={props.class + "py-8"}>
-                <Inner id={props.id} />
                 {props.text}
             </h3>
         </Match>

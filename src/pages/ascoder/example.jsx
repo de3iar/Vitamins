@@ -1,13 +1,14 @@
 import { useI18n } from "/i18n/context";
 import Headings from '../../components/content/headings';
 import { getLoactionPath } from '../../js/getLocationPath.js';
+import { WikiPage } from "../../components/content/page";
 export default function GetStarted() {
     const i18n = useI18n()
     const name1 = 1
     const imgPath = getLoactionPath() + "/assets/images/ascoder/"
     const videoPath = getLoactionPath() + "/assets/videos/ascoder/"
     const lp = "ascoder_example:"
-    return <article className="prose bg-base-100 m-20 h-fit prose-li:py-4 prose-li:font-bold">
+    return <WikiPage>
 
         <Headings h="1" id="" class="" text={i18n.t(lp + 'title')}></Headings>
         <Headings h="2" id="" class="time" text={i18n.t(lp + 't_time')}></Headings>
@@ -56,6 +57,6 @@ export default function GetStarted() {
 
 
 
-    </article >
+    </WikiPage >
 
 }

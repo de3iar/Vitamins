@@ -1,15 +1,15 @@
 {
-    "title": "关于",
-    "t_me": "我",
-    "aka": "也是",
-    "meCredit": "Vitamins和本站的开发者",
-    "p_me": "我是中国的个人开发者，偶尔也是虚拟主播，主要活动在bilibili。",
-    "contact_me": "如果你想要联系我，建议使用邮箱：3408978042@qq.com.",
-    "t_thanks": "感谢",
-    "li_mymodel": "制作了我的Live2D模型, 是我叠.",
-    "li_denchi": "制作了优秀的Vtube Studio；允许我在本站中使用Akari",
-    "p_materials": "在Vitamins或本站中使用的部分素材：",
-    "li_facemodel": "应用内的脸模",
-    "source": "来源",
-    "author": "作者"
+  "title": "关于",
+  "t_me": "我",
+  "aka": "也是",
+  "meCredit": "Vitamins和本站的开发者",
+  "p_me": "我是中国的个人开发者，偶尔也是虚拟主播，主要活动在bilibili。",
+  "contact_me": "如果你想要联系我，建议在KOOK或Discord向我留言。",
+  "t_thanks": "感谢",
+  "li_mymodel": "制作了我的Live2D模型, 是我叠.",
+  "li_denchi": "制作了优秀的Vtube Studio；允许我在本站中使用Akari",
+  "p_materials": "在Vitamins或本站中使用的部分素材：",
+  "li_facemodel": "应用内的脸模",
+  "source": "来源",
+  "author": "作者"
 }

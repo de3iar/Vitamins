@@ -1,15 +1,15 @@
 {
-    "title": "About",
-    "t_me": "Me",
-    "aka": "AKA",
-    "meCredit": "Developer of Vitamins and this site.",
-    "p_me": "I'm an indie coder from China, and sometimes a Vtuber active at bilibili. Pronunciation of my name is 'dee'. ",
-    "contact_me": "If you want to contact me, I suggest using the email (3408978042@qq.com). And pls be aware I will use DeepL when using languages other than Chinese.",
-    "t_thanks": "Thanks",
-    "li_mymodel": "for making my Live2d model.",
-    "li_denchi": "for making the excellent software Vtube Studio, and for allowing me to use Akari in the documentation.",
-    "p_materials": "Some materials used within the app or website:",
-    "li_facemodel": "In app Face model",
-    "source": "Soure",
-    "author": "Author"
+  "title": "About",
+  "t_me": "Me",
+  "aka": "AKA",
+  "meCredit": "Developer of Vitamins and this site.",
+  "p_me": "I'm an indie coder from China, and sometimes a Vtuber active at bilibili. Pronunciation of my name is 'dee'. ",
+  "contact_me": "If you want to contact me, I suggest using the email (3408978042@qq.com) or mention/dm me on Discord. And pls be aware I will use DeepL when using languages other than Chinese.",
+  "t_thanks": "Thanks",
+  "li_mymodel": "for making my Live2d model.",
+  "li_denchi": "for making the excellent software Vtube Studio, and for allowing me to use Akari in the documentation.",
+  "p_materials": "Some materials used within the app or website:",
+  "li_facemodel": "In app Face model",
+  "source": "Soure",
+  "author": "Author"
 }

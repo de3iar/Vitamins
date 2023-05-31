@@ -1,11 +1,12 @@
 import { useI18n } from "/i18n/context";
 import Headings from '../..//components/content/headings';
 import { getLoactionPath } from '../../js/getLocationPath.js';
+import { WikiPage } from "../../components/content/page";
 export default function GetStarted() {
     const i18n = useI18n()
     const imgPath = getLoactionPath() + "/assets/images/getting_started/"
     const lg = "req:"
-    return <article className="prose bg-base-100 m-20 h-fit">
+    return <WikiPage>
         <Headings h="1" id="title" class="content_title pb-8 " text={i18n.t(lg + 'title')} />
         <Headings h="2" id="req_hardware" text={i18n.t(lg + "hardware.title")}></Headings>
         <p>{i18n.t(lg + 'hardware.p1_follow_types')}</p>
@@ -15,6 +16,9 @@ export default function GetStarted() {
                 <ul>
                     <li>
                         <a href="https://apps.apple.com/app/vtube-studio/id1511435444" target={"_blank"}>Vtube Studio</a>
+                    </li>
+                    <li>
+                        <a href="https://apps.apple.com/app/shiori/id1547458369" target={"_blank"}>Shiori</a>
                     </li>
                 </ul>
             </li>
@@ -56,6 +60,6 @@ export default function GetStarted() {
         <blockquote> {i18n.t(lg + 'software.p2_firewall')}</blockquote>
 
 
-    </article >
+    </WikiPage >
 
 }

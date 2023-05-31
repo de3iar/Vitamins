@@ -1,32 +1,32 @@
 {
-    "menu-start": {
-        "title": "开始",
-        "req": "需求",
-        "download": "下载与安装",
-        "intro": "介绍"
-    },
-    "menu_as_actor": {
-        "title": "作为VTB/面捕演员",
-        "use": "使用",
-        "prefix": "前处理（校准）",
-        "impAndLoad": "导入与载入脚本",
-        "info": "信息"
-    },
-    "as_rigger": {
-        "title": "作为模型师",
-        "withVitamins": "建模中使用Vitamins",
-        "distru": "分发与交付"
-    },
-    "as_coder": {
-        "title": "作为参数脚本开发者",
-        "intro": "介绍",
-        "info": "信息",
-        "quickstart": "快速开始",
-        "advanced": "进阶",
-        "examples": "示例"
-    },
-    "misc": "杂项",
-    "faq": "常见问题",
-    "about": "关于",
-    "comm": "社区"
+  "menu-start": {
+    "title": "开始",
+    "req": "需求",
+    "download": "下载",
+    "intro": "介绍"
+  },
+  "menu_as_actor": {
+    "title": "作为VTB/面捕演员",
+    "use": "使用",
+    "prefix": "前处理（校准）",
+    "impAndLoad": "导入与载入脚本",
+    "info": "信息"
+  },
+  "as_rigger": {
+    "title": "作为模型师",
+    "withVitamins": "建模中使用Vitamins",
+    "distru": "分发与交付"
+  },
+  "as_coder": {
+    "title": "作为参数脚本开发者",
+    "intro": "介绍",
+    "info": "信息",
+    "quickstart": "快速开始",
+    "advanced": "进阶",
+    "examples": "示例"
+  },
+  "misc": "杂项",
+  "faq": "常见问题",
+  "about": "关于",
+  "comm": "社区"
 }
