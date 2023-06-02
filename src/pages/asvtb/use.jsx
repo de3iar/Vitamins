@@ -2,6 +2,7 @@ import { useI18n } from "/i18n/context";
 import Headings from '../../components/content/headings';
 import { getLoactionPath } from '../../js/getLocationPath.js';
 import { WikiPage } from "../../components/content/page";
+import { A } from "@solidjs/router";
 export default function GetStarted() {
     const i18n = useI18n()
     const imgPath = getLoactionPath() + "/assets/images/getting_started/"
@@ -50,7 +51,7 @@ export default function GetStarted() {
 
         </ul>
 
-        <p>{i18n.t(lg + "p_prefix")} <a href={"/asvtb_prefix" + "?lang=" + i18n.language}>{i18n.t(lg + "a_prefix")}</a>.</p>
+        <p>{i18n.t(lg + "p_prefix")}<A href={getLoactionPath() + "/asvtb_prefix" + "?lang=" + i18n.language}  > <b>{i18n.t(lg + "a_prefix")}</b></A></p>
     </WikiPage >
 
 }
