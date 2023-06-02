@@ -1,16 +1,19 @@
 import { useI18n } from "@i18n/context";
-import { onMount, useContext } from "solid-js";
+import { createEffect, on, onMount, useContext, createSignal, onCleanup } from "solid-js";
 import { floatNavContext } from "../floatNav/floatNavContext";
 
 function Headings(props) {
     const i18n = useI18n()
     const { floatNavStore, setFloatNavStore } = useContext(floatNavContext)
     let thisRef
-    onMount(() => {
-        if (props.h == 2) {
-            setFloatNavStore("headings", [...floatNavStore.headings, { heading: props.text, ref: thisRef }])
+
+    createEffect(on(() => props.text, () => {
+
+        if (props.h == 2 || props.h == 3) {
+
+            setFloatNavStore("headings", [...floatNavStore.headings, { heading: props.text, ref: thisRef, h: props.h }])
         }
-    })
+    }))
 
     return (<Switch fallback={<div>tt</div>}>
         <Match when={props.h == 1}>
@@ -26,7 +29,7 @@ function Headings(props) {
             </h2>
         </Match>
         <Match when={props.h == 3}>
-            <h3 id={props.id} className={props.class + "py-8"}>
+            <h3 id={props.id} ref={thisRef} className={props.class + "py-8"}>
                 {props.text}
             </h3>
         </Match>
