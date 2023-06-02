@@ -1,6 +1,6 @@
 const path = require('path');
 const fs = require('fs');
-
+const version = require('../package.json').version;
 function _copy(src, dist) {
     var paths = fs.readdirSync(src)
     paths.forEach(function (p) {
@@ -44,10 +44,10 @@ function copyDir(src, dist) {
 }
 
 copyDir("./assets/", "./docs/assets");
-
-copyDir("./i18n/", "./docs/i18n");
-fs.rmSync('./docs/i18n/config.js')
-fs.rmSync('./docs/i18n/context.js')
+const langPath = `./docs/lang/${version}/`
+copyDir("./i18n/", langPath);
+fs.rmSync(langPath + 'config.js')
+fs.rmSync(langPath + 'context.js')
 
 let a = fs.readFileSync('./docs/index.html')
 let b = a.toString()

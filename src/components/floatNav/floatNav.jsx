@@ -9,7 +9,6 @@ export function FloatNav(props) {
     })
     function getCss(h) {
         let className = 'flex flex-col cursor-pointer hover:underline hover:underline-offset-1 transition  '
-        console.log(h);
         switch (h) {
             case '2':
                 className += ' text-secondary hover:translate-x-1 mt-1 first:mt-0 '
