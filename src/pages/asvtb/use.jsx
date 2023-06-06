@@ -4,36 +4,30 @@ import { getLoactionPath } from '../../js/getLocationPath.js';
 import { WikiPage } from "../../components/content/page";
 import { A } from "@solidjs/router";
 import { VitaImg } from "../../components/media/VitaImg";
-import use_leftSignal from '@assets/images/asvtb/use_leftSignal.png';
-import use_inputConnection from '@assets/images/asvtb/use_inputConnection.png';
-import use_vtsConnection from '@assets/images/asvtb/use_vtsConnection.png';
-import use_bottomHelper from '@assets/images/asvtb/use_bottomHelper.png';
-import use_scriptManager from '@assets/images/asvtb/use_scriptManager.png';
 
-import use_importBtn from '@assets/images/asvtb/use_importBtn.png';
 import { useI18nWithNS } from "../../../i18n/context";
 
 export default function Use() {
     const i18n = useI18n()
     const trans = useI18nWithNS("asvtb_use")
-
+    const imgPath = getLoactionPath() + "/assets/images/asvtb/"
     const lg = "asvtb_use:"
     return <WikiPage>
         <Headings h="1" id="title" class="content_title pb-8 " text={trans('title')} />
 
         <Headings h="2" class="" text={trans("connection")} />
         <div class="flex items-end">
-            <VitaImg src={use_leftSignal} class="" />
+            <VitaImg src={imgPath + "use_leftSignal.png"} class="" />
             <p className="pb-4">{trans("connect_device_vts")}</p>
         </div>
         <Headings h="3" class="" text={trans("connect_capture_device")} />
-        <VitaImg src={use_inputConnection} />
+        <VitaImg src={imgPath + "use_inputConnection.png"} />
         <p class="">{trans("click_first_indicator")}</p>
         <p class="">{trans("select_capture_device")}</p>
 
         <p class="">{trans("indicator_green_after_connection")}</p>
         <Headings h="3" class="" text={trans("connect_vts")} />
-        <VitaImg src={use_vtsConnection} />
+        <VitaImg src={imgPath + "use_vtsConnection.png"} />
 
         <p class="">{trans("click_second_indicator")}</p>
         <p class="">{trans("show_vts_connection_card")}</p>
@@ -55,15 +49,15 @@ export default function Use() {
             </A>
         </p>
 
-        <VitaImg src={use_bottomHelper} />
+        <VitaImg src={imgPath + "use_bottomHelper.png"} />
 
         <p class="">{trans("click_question_button_after_device_connection")}</p>
         <Headings h="2" class="" text={trans("import_use_archive")} />
         <p class="">{trans("each_script_archive_drives_model")}</p>
         <p class="">{trans("import_archive_click_right_side")}</p>
-        <VitaImg src={use_scriptManager} />
+        <VitaImg src={imgPath + "use_scriptManager.png"} />
         <p class="">{trans("open_script_archive_manager")}</p>
-        <VitaImg src={use_importBtn} />
+        <VitaImg src={imgPath + "use_importBtn.png"} />
 
         <p class="">{trans("click_import_icon")}</p>
 

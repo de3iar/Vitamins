@@ -4,11 +4,12 @@ import { getLoactionPath } from '../../js/getLocationPath.js';
 import { WikiPage } from "../../components/content/page";
 import { useI18nWithNS } from "../../../i18n/context";
 import { VitaImg } from "../../components/media/VitaImg";
-import prefixAdvan_vtsremap from '@assets/images/getting_started/prefixAdvan_vtsremap.png';
-import intor_mouthCompare_x264 from '@assets/videos/intro/intor_mouthCompare_x264.mp4';
 export default function PrefixAdvan() {
     const i18n = useI18n()
     const trans = useI18nWithNS("prefixAdvan")
+    const imgPath = getLoactionPath() + "/assets/images/getting_started/"
+    const videoPath = getLoactionPath() + "/assets/videos/intro/"
+
     return <WikiPage>
 
         <Headings h="1" class="" text={trans('preProcessingCalibrationAdvantages')}></Headings>
@@ -44,7 +45,7 @@ export default function PrefixAdvan() {
         <br />
         <p class="">{trans('ifThisIndividualWishesToUseRemapping')}</p>
 
-        <VitaImg src={prefixAdvan_vtsremap}></VitaImg>
+        <VitaImg src={imgPath + 'prefixAdvan_vtsremap.png'}></VitaImg>
         <p class="">{trans('forExampleInVTSIfOnlyTheMaximum')}</p>
 
         <p class="">{trans('moreComplexControlParameters')}</p>
@@ -57,7 +58,7 @@ export default function PrefixAdvan() {
         <b class="">{trans('oneCouldSayThatEveryIndividual')}</b>
 
         <p class="">{trans('itIsEvidentThatStandardizing')}</p>
-        <video class="max-w-lg" src={intor_mouthCompare_x264} muted controls></video>
+        <video class="max-w-lg" src={videoPath + 'intor_mouthCompare_x264.mp4'} muted controls></video>
 
         <Headings h="3" class="" text={trans('regardingModelHandover')}></Headings>
 

@@ -5,6 +5,7 @@ import { WikiPage } from "../../components/content/page";
 import { useI18nWithNS } from "../../../i18n/context";
 export default function WithVitamins() {
     const trans = useI18nWithNS("asrigger_withVitamins")
+
     return <WikiPage>
         <Headings h="1" class="" text={trans("integratingVitaminsIntoWorkflow")}></Headings>
         <Headings h="2" class="" text={trans("duringDevelopment")}></Headings>
