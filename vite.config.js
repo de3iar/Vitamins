@@ -10,7 +10,10 @@ export default defineConfig({
     usePolling: true
   },
   resolve: {
-    alias: [{ find: '@i18n', replacement: resolve(__dirname, 'i18n') }],
+    alias: [
+      { find: '@i18n', replacement: resolve(__dirname, 'i18n') },
+      { find: '@assets', replacement: resolve(__dirname, 'assets') },
+    ],
   },
   build: {
     target: 'esnext',

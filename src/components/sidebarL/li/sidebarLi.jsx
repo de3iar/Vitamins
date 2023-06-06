@@ -12,7 +12,7 @@ export default function SidebarLi(props) {
     return <div >
         <li>
             <A
-                className={"  active:text-primary-content " + (match() ? 'active' : 'hover:text-primary')}
+                className={"  active:text-primary-content " + (match() ? 'active hover:text-primary-content' : 'hover:text-primary')}
                 href={getLoactionPath() + props.href + "?lang=" + i18n.language}  >
 
                 <b>{i18n.t(props.text)}</b>

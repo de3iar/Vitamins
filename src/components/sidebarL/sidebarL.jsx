@@ -19,14 +19,13 @@ function SidebarL() {
                 <SidebarLi href="intro" text="sidebarL:menu-start.intro" />
                 <SidebarLi href="download" text="sidebarL:menu-start.download" />
                 <SidebarLi href="req" text="sidebarL:menu-start.req" />
+
                 <li class="menu-title">
                     <span>{i18n.t('sidebarL:menu_as_actor.title')}</span>
                 </li>
                 <li></li>
                 <SidebarLi href="use" text="sidebarL:menu_as_actor.use" />
                 <SidebarLi href="asvtb_prefix" text="sidebarL:menu_as_actor.prefix" />
-                <SidebarLi href="asvtb_impAndLoad" text="sidebarL:menu_as_actor.impAndLoad" />
-                <SidebarLi href="asvtb_knowledge" text="sidebarL:menu_as_actor.info" />
 
                 <li class="menu-title">
                     <span>{i18n.t('sidebarL:as_rigger.title')}</span>
@@ -34,7 +33,6 @@ function SidebarL() {
                 </li>
                 <li></li>
                 <SidebarLi href="rigger_withVitamins" text="sidebarL:as_rigger.withVitamins" />
-                <SidebarLi href="rigger_distribution" text="sidebarL:as_rigger.distru" />
                 <li class="menu-title">
                     <span>{i18n.t('sidebarL:as_coder.title')}</span>
                 </li>
@@ -49,6 +47,8 @@ function SidebarL() {
 
                 </li>
                 <li></li>
+                <SidebarLi href="prefixAdvan" text="sidebarL:menu-start.prefixAdvan" />
+
                 <SidebarLi href="faq" text="sidebarL:faq" />
                 <SidebarLi href="comm" text="sidebarL:comm" />
                 <SidebarLi href="about" text="sidebarL:about" />

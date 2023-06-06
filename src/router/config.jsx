@@ -24,9 +24,14 @@ export const routesList = [
     }
     ,
     {
+        path: a + "prefixAdvan",
+        component: lazy(() => import("/src/pages/start/prefixAdvan"))
+    },
+    {
         path: a + "use",
         component: lazy(() => import("/src/pages/asvtb/use"))
     },
+
     {
         path: a + "asvtb_prefix",
         component: lazy(() => import("/src/pages/asvtb/prefix"))

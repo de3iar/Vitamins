@@ -10,16 +10,7 @@ export function FloatNavContextProvider(props) {
     })
 
     let c = { floatNavStore, setFloatNavStore }
-    function languageChangedHandler() {
-        setFloatNavStore('headings', [])
 
-    }
-    onMount(() => {
-        i18next.on('languageChanged', languageChangedHandler)
-    })
-    onCleanup(() => {
-        i18next.off('languageChanged', languageChangedHandler)
-    })
     return <floatNavContext.Provider value={c}>
         {props.children}
     </floatNavContext.Provider>

@@ -33,7 +33,7 @@ function readDirRecur(folder, callback) {
 
 var fileList = []
 var timeStart = new Date()
-var filePath = path.resolve('./src/i18n/en')
+var filePath = path.resolve('./i18n/en')
 readDirRecur(filePath, function (filePath) {
     console.log('done', new Date() - timeStart);//done 3
     let newList = []

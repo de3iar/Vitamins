@@ -10,8 +10,13 @@ function Headings(props) {
     createEffect(on(() => props.text, () => {
 
         if (props.h == 2 || props.h == 3) {
-
-            setFloatNavStore("headings", [...floatNavStore.headings, { heading: props.text, ref: thisRef, h: props.h }])
+            //在FloatNavStore中找到ref与thisRef相同的元素，如果找到了，仅更新heading
+            let index = floatNavStore.headings.findIndex((item) => item.ref == thisRef)
+            if (index != -1) {
+                setFloatNavStore("headings", index, "heading", props.text)
+            } else {
+                setFloatNavStore("headings", [...floatNavStore.headings, { heading: props.text, ref: thisRef, h: props.h }])
+            }
         }
     }))
 
@@ -21,6 +26,7 @@ function Headings(props) {
             <h1 className={props.class + " text-primary"}>
 
                 {props.text}
+
             </h1>
         </Match>
         <Match when={props.h == 2}>
@@ -31,18 +37,21 @@ function Headings(props) {
         <Match when={props.h == 3}>
             <h3 id={props.id} ref={thisRef} className={props.class + "py-8"}>
                 {props.text}
+
             </h3>
         </Match>
         <Match when={props.h == 4}>
             <h4 className={props.class + "py-4"}>
 
                 {props.text}
+
             </h4>
         </Match>
         <Match when={props.h == 5}>
             <h5 className={props.class}>
 
                 {props.text}
+
             </h5>
         </Match>
     </Switch>)
