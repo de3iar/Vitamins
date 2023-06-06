@@ -9,3 +9,5 @@ This repository is only for wiki page and does not contain app source code.
 
 ## Community 社区
 [Kook](https://kook.top/aQn4aE)
+
+[Discord](https://discord.gg/g5qvSbJEsr)
